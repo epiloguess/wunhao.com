@@ -7,12 +7,10 @@ image:
   url: "https://docs.astro.build/assets/full-logo-light.png"
   alt: "The full Astro logo."
 tags: ["astro", "popular"]
-categories: ["astro"]
+categories: ["小程序"]
 draft: false
 popular: true
 ---
-
-# 面试官：说说你对微信小程序的理解？优缺点？
 
 ![](https://static.vue-js.com/be367c80-300e-11ec-8e64-91fdec0f05a1.png)
 

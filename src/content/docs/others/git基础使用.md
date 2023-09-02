@@ -9,9 +9,8 @@ image:
 tags:
   - git
   - popular
-categories:
-  - astro
-  - dd
+categories: ["Git"]
+
 draft: true
 popular: true
 ---

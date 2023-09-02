@@ -4,13 +4,24 @@ import Layout from "./SideBarLayout.astro";
 
 import AboutMe from "../components/AboutMe.astro";
 import PostDetails from "../components/PostDetails.astro";
+import PostDetailsSmall from "../components/PostDetailsSmall.astro";
 ---
 
 <Layout title={frontmatter.title}>
-  <section slot="article-content" class="prose-base">
-    <slot />
+  <section slot="article-content">
+    <section class="lg:hidden">
+      <PostDetailsSmall
+        categories={frontmatter.categories}
+        tags={frontmatter.tags}
+        pubDate={frontmatter.pubDate}
+      />
+    </section>
+
+    <section class="prose-base">
+      <slot />
+    </section>
   </section>
-  <section slot="sidebar-content" class="flex flex-col gap-8">
+  <section slot="sidebar-content" class="flex flex-col gap-4">
     <AboutMe />
     <PostDetails
       categories={frontmatter.categories}

@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-
+import ViewALL from "./ViewAll.astro";
 const allPosts = await getCollection("docs");
 const PostsStorted = allPosts.sort(
   (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
@@ -9,14 +9,14 @@ const PostsStorted = allPosts.sort(
 
 <div class="flex flex-col gap-5">
   <section class="flex justify-between items-center">
-    <h2 class="text-2xl font-bold">Latest Posts</h2>
-    <a class="border px-2 py-1 rounded bg-gray-100" href="/posts">View All</a>
+    <h2 class="text-3xl font-bold">Latest Posts</h2>
+    <ViewALL path="/posts" />
   </section>
   <div class="flex flex-col gap-2">
     {
       PostsStorted.slice(0, 6).map((post) => (
         <a
-          class=" py-1 flex justify-between  border-solid border-b border-gray-300 "
+          class=" py-1 flex justify-between border-b border-gray-300 "
           href={`/${post.slug}`}
         >
           <text class=" ">{post.data.title}</text>
