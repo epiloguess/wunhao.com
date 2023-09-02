@@ -78,5 +78,5 @@ popular: true
 
 ## 参考文献
 
-- https://developers.weixin.qq.com/miniprogram/dev/framework/
-- https://www.zhihu.com/question/263816362
+- [微信开放文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
+- [微信小程序的优缺点是什么？ - 知乎](https://www.zhihu.com/question/263816362)

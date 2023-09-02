@@ -196,6 +196,6 @@ animation: rotate 2s;
 
 ## 参考文献
 
-- https://segmentfault.com/a/1190000022540857
-- https://zh.m.wikipedia.org/wiki/CSS%E5%8A%A8%E7%94%BB
-- https://vue3js.cn/interview
+- [css3实现动画有几种方式？ - 每日前端面试题 - SegmentFault 思否](https://segmentfault.com/a/1190000022540857)
+- [CSS动画 - 维基百科，自由的百科全书](https://zh.m.wikipedia.org/wiki/CSS%E5%8A%A8%E7%94%BB)
+- [web前端面试 - 面试官系列](https://vue3js.cn/interview)
