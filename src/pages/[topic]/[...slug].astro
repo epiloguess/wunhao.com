@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/PostLayout.astro";
+
+export async function getStaticPaths() {
+  const pages = await getCollection("docs");
+
+  const paths = pages.map((page) => {
+    const [topic, ...slug] = page.slug.split("/");
+    return {
+      params: { topic, slug: slug.join("/") || undefined },
+      props: page,
+    };
+  });
+
+  return paths;
+}
+const page = Astro.props;
+
+const { topic, slug } = Astro.params;
+const { Content } = await page.render();
+---
+
+<Layout frontmatter={page.data}>
+  <Content />
+</Layout>

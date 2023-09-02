@@ -1,0 +1,40 @@
+---
+import Layout from "./Card.astro";
+const { categories, tags, pubDate } = Astro.props;
+---
+
+<Layout title="Post Detailes">
+  <div class="flex flex-col gap-5">
+    <section>发布于{pubDate}</section>
+    <section>
+      <h2 class="font-bold">CATEGORY</h2>
+      <div class="flex flex-wrap gap-2">
+        {
+          categories.map((tag) => (
+            <a
+              class=" border border-gray-400 rounded p-1"
+              href={`/categories/${tag}`}
+            >
+              {tag}
+            </a>
+          ))
+        }
+      </div>
+    </section>
+    <section>
+      <h2 class="font-bold">TAGS</h2>
+      <div class="flex flex-wrap gap-2">
+        {
+          tags.map((tag) => (
+            <a
+              class="  border border-gray-400 rounded p-1"
+              href={`/tags/${tag}`}
+            >
+              {tag}
+            </a>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+</Layout>

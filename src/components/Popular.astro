@@ -1,0 +1,32 @@
+---
+import { getCollection } from "astro:content";
+
+const allPosts = await getCollection("docs");
+const PostsStorted = allPosts.sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
+---
+
+<div class="flex flex-col gap-5">
+  <section class="flex justify-between items-center">
+    <h2 class="text-2xl font-bold">Popular</h2>
+    <a class="border px-2 py-1 rounded bg-gray-100" href="/tags/popular"
+      >View All</a
+    >
+  </section>
+
+  <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-2">
+    {
+      PopularPosts.slice(0, 6).map((post) => (
+        <div class="border border-solid rounded p-4 flex flex-col  bg-white">
+          <a class="flex justify-between " href={`/${post.slug}`}>
+            <text>{post.data.title}</text>
+          </a>
+        </div>
+      ))
+    }
+  </div>
+</div>
+
+<style></style>

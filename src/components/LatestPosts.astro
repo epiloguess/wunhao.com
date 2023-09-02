@@ -1,0 +1,30 @@
+---
+import { getCollection } from "astro:content";
+
+const allPosts = await getCollection("docs");
+const PostsStorted = allPosts.sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+---
+
+<div class="flex flex-col gap-5">
+  <section class="flex justify-between items-center">
+    <h2 class="text-2xl font-bold">Latest Posts</h2>
+    <a class="border px-2 py-1 rounded bg-gray-100" href="/posts">View All</a>
+  </section>
+  <div class="flex flex-col gap-4">
+    {
+      PostsStorted.slice(0, 6).map((post) => (
+        <a
+          class="flex justify-between  border-solid border-b border-gray-300 text-sm"
+          href={`/${post.slug}`}
+        >
+          <text class=" font-semibold">{post.data.title}</text>
+          <time class=" text-gray-500 hidden md:block">{`${
+            post.data.pubDate.getMonth() + 1
+          } 月 ${post.data.pubDate.getDate()} 日， ${post.data.pubDate.getFullYear()}`}</time>
+        </a>
+      ))
+    }
+  </div>
+</div>

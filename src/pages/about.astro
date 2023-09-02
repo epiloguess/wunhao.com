@@ -1,0 +1,19 @@
+---
+import { getEntry } from "astro:content";
+
+const page = await getEntry("blog", "about");
+import Layout from "../layouts/SideBarLayout.astro";
+import MeCard from "../components/MeCard.astro";
+
+const { Content } = await page.render();
+---
+
+<Layout title="About Me">
+  <section slot="article-content" class="prose-base">
+    <Content />
+  </section>
+  <section slot="sidebar-content" class="flex flex-col gap-8">
+    <MeCard />
+  </section>
+  <style></style>
+</Layout>

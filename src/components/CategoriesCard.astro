@@ -1,0 +1,24 @@
+---
+import { getCollection } from "astro:content";
+const allPosts = await getCollection("docs");
+const categories = [
+  ...new Set(allPosts.map((post) => post.data.categories).flat()),
+];
+---
+
+<div class="border border-solid border-gray-400 rounded-lg p-4 bg-gray-100">
+  <h2 class="font-bold">CATEGORIES</h2>
+  <div class="flex flex-wrap gap-2 pt-4">
+    {
+      categories.map((tag) => (
+        <a
+          class=" border border-gray-500 rounded p-1 "
+          href={`/categories/${tag}`}
+        >
+          {tag}
+        </a>
+      ))
+    }
+  </div>
+</div>
+<style></style>

@@ -1,0 +1,14 @@
+---
+import { getEntry } from "astro:content";
+import Layout from "../components/Card.astro";
+
+const page = await getEntry("blog", "aboutme");
+
+const { Content } = await page.render();
+---
+
+<Layout title="About Me">
+  <section class="prose-sm">
+    <Content />
+  </section>
+</Layout>

@@ -1,0 +1,38 @@
+---
+const { posts, tag } = Astro.props;
+
+const PostsStorted = posts.sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+
+const allYears = [
+  ...new Set(posts.map(({ data }) => data.pubDate.getFullYear())),
+].sort((a: number, b: number) => b - a);
+---
+
+<section>
+  {
+    allYears.map((year) => {
+      const yearpost = PostsStorted.filter(
+        (post) => post.data.pubDate.getFullYear() == year
+      );
+
+      return (
+        <section>
+          <h3 class=" font-bold ">{year}</h3>
+          {yearpost.map((onepost) => (
+            <a
+              class="flex justify-between content-center"
+              href={`/${onepost.slug}`}
+            >
+              <text>{onepost.data.title}</text>
+              <time class="hidden md:block">{`${
+                onepost.data.pubDate.getMonth() + 1
+              }月${onepost.data.pubDate.getDate()}日`}</time>
+            </a>
+          ))}
+        </section>
+      );
+    })
+  }
+</section>

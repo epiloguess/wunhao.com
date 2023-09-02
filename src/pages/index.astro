@@ -1,0 +1,19 @@
+---
+import { getEntry } from "astro:content";
+
+import Layout from "../layouts/BaseLayout.astro";
+import LatestPosts from "../components/LatestPosts.astro";
+import Popular from "../components/Popular.astro";
+const page = await getEntry("blog", "aboutme");
+const { Content } = await page.render();
+---
+
+<Layout title="Wun-Hao's Blog">
+  <div class="flex flex-col gap-10">
+    <section class="prose-base">
+      <Content />
+    </section>
+    <LatestPosts />
+    <Popular />
+  </div>
+</Layout>
