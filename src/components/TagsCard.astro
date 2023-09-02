@@ -6,7 +6,7 @@ const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 ---
 
 <div class="border border-solid border-gray-400 rounded-lg p-4 bg-gray-100">
-  <h2 class="font-bold">TAGS</h2>
+  <h2 class="font-bold">Tags</h2>
   <div class="flex flex-wrap gap-2 pt-4">
     {
       tags.map((tag) => (

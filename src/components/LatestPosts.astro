@@ -12,15 +12,15 @@ const PostsStorted = allPosts.sort(
     <h2 class="text-2xl font-bold">Latest Posts</h2>
     <a class="border px-2 py-1 rounded bg-gray-100" href="/posts">View All</a>
   </section>
-  <div class="flex flex-col gap-4">
+  <div class="flex flex-col gap-2">
     {
       PostsStorted.slice(0, 6).map((post) => (
         <a
-          class="flex justify-between  border-solid border-b border-gray-300 text-sm"
+          class=" py-1 flex justify-between  border-solid border-b border-gray-300 "
           href={`/${post.slug}`}
         >
-          <text class=" font-semibold">{post.data.title}</text>
-          <time class=" text-gray-500 hidden md:block">{`${
+          <text class=" ">{post.data.title}</text>
+          <time class=" text-gray-500 hidden sm:block">{`${
             post.data.pubDate.getMonth() + 1
           } 月 ${post.data.pubDate.getDate()} 日， ${post.data.pubDate.getFullYear()}`}</time>
         </a>

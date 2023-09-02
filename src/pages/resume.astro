@@ -8,12 +8,11 @@ import MeCard from "../components/MeCard.astro";
 const { Content } = await page.render();
 ---
 
-<Layout title="About Me">
+<Layout title="Resume">
   <section slot="article-content" class="prose-base">
     <Content />
   </section>
   <section slot="sidebar-content" class="flex flex-col gap-8">
     <MeCard />
   </section>
-  <style></style>
 </Layout>

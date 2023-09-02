@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Layout from "../../layouts/SideBarLayout.astro";
 import CategoriesCard from "../../components/CategoriesCard.astro";
 import TagsCard from "../../components/TagsCard.astro";
-import BlogPost from "../../components/BlogPost.astro";
+import BlogPost from "../../components/BlogPostByYears.astro";
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("docs");

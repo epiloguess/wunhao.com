@@ -15,23 +15,22 @@ Hey, I'm Wun-Hao! Welcome to my spot on the web for my projects, tutorials, and 
 
 My site has no ads, no affiliate links, no tracking or analytics, no sponsored posts, and no paywall. My only motivation for this site is to share what I've learned with the world. Although the tide is against me, I want to make the internet a better place, even if it's just right here. I hope I will inspire others to make their own creative corner on the web as well.
 
-You can contact me by email at **hellowyho@gmail.com** and **wunhao.com** to say hi! I always appreciate meeting new people.
+You can contact me by **hellowyho@gmail.com** and **wunhao.com** to say hi! I always appreciate meeting new people.
 
-## [](#what-im-doing-now)What I'm doing now
+## What I'm doing now
 
-## [](#random-facts)Random facts
+- Looking for a job
 
-## [](#favorites)Favorites
+## Favorites
 
 - **Color** - Blue
 - **Season** - Fall
 - **Animal** - Cat
 
-## [](#tools)Tools
+## Tools
 
-### [](#software)Software
+### Software
 
-- This website is hosted on [Netlify](https://netlify.com/) and uses the [Astro](https://astro.build/) framework
 - **Coding**: [Visual Studio Code](https://code.visualstudio.com/)
 - **Notes**: [Obsidian](https://obsidian.md/)
 - **Music**: [QQMusic](https://y.qq.com/)
@@ -49,14 +48,6 @@ You can contact me by email at **hellowyho@gmail.com** and **wunhao.com** to say
 - **Microphone**: [OnePlus Ace2](https://www.oneplus.com/cn/ace-2)
 - **Headphones**: [HUAWEI FreeBuds 5i ](https://consumer.huawei.com/en/headphones/freebuds5i/)
 
-## [](#publications)Publications
+## Miscellaneous
 
-## [](#books)Books
-
-## [](#interviews--podcasts)Interviews & Podcasts
-
-## [](#speaking)Speaking
-
-## [](#songs)Songs
-
-## [](#miscellaneous)Miscellaneous
+- [Resume](/resume)
