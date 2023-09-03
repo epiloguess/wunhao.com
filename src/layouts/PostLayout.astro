@@ -1,33 +1,39 @@
 ---
-const { frontmatter } = Astro.props;
+const { post } = Astro.props;
 import Layout from "./SideBarLayout.astro";
 
 import AboutMe from "../components/AboutMe.astro";
 import PostDetails from "../components/PostDetails.astro";
 import PostDetailsSmall from "../components/PostDetailsSmall.astro";
+
+import { Image } from "astro:assets";
 ---
 
-<Layout title={frontmatter.title}>
+<Layout title={post.data.title}>
   <section slot="article-content">
     <section class="lg:hidden">
       <PostDetailsSmall
-        categories={frontmatter.categories}
-        tags={frontmatter.tags}
-        pubDate={frontmatter.pubDate}
+        categories={post.data.categories}
+        tags={post.data.tags}
+        pubDate={post.data.pubDate}
       />
     </section>
 
     <section class="prose-base">
+      <div></div>
       <slot />
     </section>
   </section>
   <section slot="sidebar-content" class="flex flex-col gap-4">
-    <AboutMe />
-    <PostDetails
-      categories={frontmatter.categories}
-      tags={frontmatter.tags}
-      pubDate={frontmatter.pubDate}
+    <Image
+      src={post.data.cover}
+      alt={post.data.coveralt}
+      width={150}
+      height={150}
+      class="m-auto"
     />
+    <AboutMe />
+    <PostDetails post={post} />
   </section>
 </Layout>
 <style></style>

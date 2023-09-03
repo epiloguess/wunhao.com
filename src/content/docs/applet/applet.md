@@ -1,11 +1,11 @@
 ---
-title: "面试官：说说你对微信小程序的理解？优缺点？"
+title: "说说你对微信小程序的理解？优缺点？"
 pubDate: 2012-02-04
 description: "这是我 Astro 博客的第一篇文章。"
 author: "Astro 学习者"
-image:
-  url: "https://docs.astro.build/assets/full-logo-light.png"
-  alt: "The full Astro logo."
+
+cover: "./cover.png"
+coveralt: "The full Astro logo."
 tags: ["astro", "popular"]
 categories: ["小程序"]
 draft: false

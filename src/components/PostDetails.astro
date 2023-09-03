@@ -1,28 +1,47 @@
 ---
+import { getCollection } from "astro:content";
 import Layout from "./Card.astro";
-const { categories, tags, pubDate } = Astro.props;
+const { post } = Astro.props;
+
+const postLength = post.slug.split("/").length;
+const postPath = post.slug
+  .split("/")
+  .slice(0, postLength - 1)
+  .join("/");
+const allPost = await getCollection("docs");
+const postSameLength = allPost.filter((post) => {
+  post.slug.startsWith(postPath);
+});
 ---
 
-<Layout title="Post Detailes">
+<Layout title="Post Details">
+  <div>
+    {postLength}
+  </div>
+  <div>
+    {postPath}
+  </div>
+  <div>{postSameLength.length}</div>
   <div class="flex flex-col gap-5">
     <section>
       <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
         <li>
-          发布于{
-            ` ${pubDate.getFullYear()} 年 ${
-              pubDate.getMonth() + 1
-            } 月 ${pubDate.getDate()} 日 `
+          {
+            ` ${post.data.pubDate.getFullYear()} 年 ${
+              post.data.pubDate.getMonth() + 1
+            } 月 ${post.data.pubDate.getDate()} 日 `
           }
         </li>
       </ul>
     </section>
+
     <section class="flex flex-col gap-5">
       <h2 class="font-bold">Categories</h2>
       <div class="flex flex-wrap gap-2">
         <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
           {
-            categories.map((tag) => (
-              <li class=" ">
+            post.data.categories.map((tag) => (
+              <li>
                 <a
                   href={`/categories/${tag}`}
                   class=" underline text-indigo-500"
@@ -38,16 +57,17 @@ const { categories, tags, pubDate } = Astro.props;
     <section class="flex flex-col gap-5">
       <h2 class="font-bold">Tags</h2>
       <div class="flex flex-wrap gap-2">
-        {
-          tags.map((tag) => (
-            <a
-              class=" border hover:border-green-600 rounded-md px-1.5 py-1 bg-gray-50 text-sm"
-              href={`/tags/${tag}`}
-            >
-              {tag}
-            </a>
-          ))
-        }
+        <ul class="marker:text-green-400 list-disc pl-5 space-y-3 text-sm">
+          {
+            post.data.tags.map((tag) => (
+              <li>
+                <a class=" underline text-indigo-500 " href={`/tags/${tag}`}>
+                  {tag}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
       </div>
     </section>
   </div>

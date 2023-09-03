@@ -3,16 +3,15 @@ const { categories, tags, pubDate } = Astro.props;
 ---
 
 <div class="flex flex-col gap-2 pb-2">
-  <section>
-    <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
-      <li>
-        发布于{
-          ` ${pubDate.getFullYear()} 年 ${
-            pubDate.getMonth() + 1
-          } 月 ${pubDate.getDate()} 日 `
-        }
-      </li>
-    </ul>
+  <section class="flex gap-4 items-center">
+    <h2 class="font-bold">发布于</h2>
+    <div>
+      {
+        ` ${pubDate.getFullYear()} 年 ${
+          pubDate.getMonth() + 1
+        } 月 ${pubDate.getDate()} 日 `
+      }
+    </div>
   </section>
 
   <section class="flex gap-4 items-center">
@@ -32,10 +31,7 @@ const { categories, tags, pubDate } = Astro.props;
     <div class="flex flex-wrap gap-2">
       {
         tags.map((tag) => (
-          <a
-            class=" border hover:border-green-600 rounded-md px-1.5 py-1 bg-gray-50 text-sm"
-            href={`/tags/${tag}`}
-          >
+          <a class=" underline text-indigo-500" href={`/tags/${tag}`}>
             {tag}
           </a>
         ))

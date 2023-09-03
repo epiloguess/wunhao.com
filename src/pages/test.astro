@@ -20,10 +20,7 @@ const allTopics = [...new Set(allPosts.map((post) => post.id.split("/")[0]))];
                 <ul>
                   {topicpost.map((onepost) => (
                     <li>
-                      <a
-                        class="flex justify-between content-center"
-                        href={`/${onepost.slug}`}
-                      >
+                      <a class="flex justify-between" href={`/${onepost.slug}`}>
                         <text>{onepost.data.title}</text>
                         <time class="hidden md:block">{`${
                           onepost.data.pubDate.getMonth() + 1

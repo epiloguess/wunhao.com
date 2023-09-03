@@ -7,6 +7,7 @@ const PostsStorted = allPosts.sort(
   (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
 );
 const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
+import { Image } from "astro:assets";
 ---
 
 <div class="flex flex-col gap-5">
@@ -15,11 +16,20 @@ const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
     <ViewALL path="/tags/popular" />
   </section>
 
-  <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-2">
+  <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
     {
       PopularPosts.slice(0, 6).map((post) => (
-        <div class="border border-solid rounded p-4 flex flex-col  bg-white">
-          <a class="flex justify-between " href={`/${post.slug}`}>
+        <div class="border-b border-gray-300 md:border border-solid rounded p-0 md:px-4 md:py-2 xl:py-4 flex items-center gap-4">
+          <Image
+            src={post.data.cover}
+            alt={post.data.coveralt}
+            width={40}
+            class=" object-contain"
+          />
+          <a class="flex flex-col gap-1  " href={`/${post.slug}`}>
+            <time class=" text-gray-500 hidden md:block text-sm">{`${
+              post.data.pubDate.getMonth() + 1
+            } 月 ${post.data.pubDate.getDate()} 日， ${post.data.pubDate.getFullYear()}`}</time>
             <text>{post.data.title}</text>
           </a>
         </div>

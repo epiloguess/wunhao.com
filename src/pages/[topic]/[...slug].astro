@@ -3,26 +3,24 @@ import { getCollection } from "astro:content";
 import Layout from "../../layouts/PostLayout.astro";
 
 export async function getStaticPaths() {
-  const pages = await getCollection("docs");
+  const allposts = await getCollection("docs");
 
-  const paths = pages.map((page) => {
-    const [topic, ...slug] = page.slug.split("/");
+  const paths = allposts.map((post) => {
+    const [topic, ...slug] = post.slug.split("/");
     return {
       params: { topic, slug: slug.join("/") || undefined },
-      props: page,
+      props: post,
     };
   });
 
   return paths;
 }
-const page = Astro.props;
-
+const post = Astro.props;
 const { topic, slug } = Astro.params;
-const { Content } = await page.render();
+
+const { Content } = await post.render();
 ---
 
-<Layout frontmatter={page.data}>
-  <div>
-    <Content />
-  </div>
+<Layout post={post}>
+  <Content />
 </Layout>

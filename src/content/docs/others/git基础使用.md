@@ -1,19 +1,19 @@
 ---
-title: Git基础使用
+title: Git 基础使用
 pubDate: 2023-11-21
 description: 这是我 Astro 博客的第一篇文章。
 author: Astro 学习者
-image:
-  url: https://docs.astro.build/assets/full-logo-light.png
-  alt: The full Astro logo.
+cover: ./assets/cover.png
+coveralt: The full Astro logo.
 tags:
   - git
   - popular
 categories: ["Git"]
-
 draft: true
 popular: true
 ---
+
+![aa](./assets/cover.png)
 
 ```shell
 git config user.name

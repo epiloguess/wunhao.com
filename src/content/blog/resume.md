@@ -4,9 +4,9 @@ pubDate: 2023-02-10
 
 description: ""
 author: "wunhao"
-image:
-url: ""
-alt: ""
+
+cover: "./cover.png"
+coveralt: ""
 tags: ["astro", "popular"]
 popular: true
 categories: ["astro"]

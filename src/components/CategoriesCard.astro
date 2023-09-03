@@ -8,15 +8,20 @@ const categories = [
 ---
 
 <Card title="Categories">
-  <div class="flex flex-col flex-wrap">
+  <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
     {
       categories.map((category) => (
-        <a class=" font-semibold" href={`/categories/${category}`}>
-          {category}
-        </a>
+        <li>
+          <a
+            class=" underline text-indigo-500 font-semibold"
+            href={`/categories/${category}`}
+          >
+            {category}
+          </a>
+        </li>
       ))
     }
-  </div>
+  </ul>
 </Card>
 
 <style></style>

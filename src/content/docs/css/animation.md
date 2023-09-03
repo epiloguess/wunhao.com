@@ -3,9 +3,9 @@ title: "面试官：css3 动画有哪些？"
 pubDate: 2023-09-01
 description: ""
 author: "wunhao"
-image:
-url: ""
-alt: ""
+
+cover: "./cover.png"
+coveralt: ""
 tags: ["astro", "popular"]
 categories: ["CSS"]
 popular: true
