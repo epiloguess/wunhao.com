@@ -8,7 +8,9 @@ coveralt: The full Astro logo.
 tags:
   - git
   - popular
-categories: ["Git"]
+  - astro
+categories:
+  - Git
 draft: true
 popular: true
 ---

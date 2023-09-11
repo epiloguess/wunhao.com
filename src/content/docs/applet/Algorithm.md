@@ -1,14 +1,22 @@
 ---
-title: "说说你对算法的理解？应用场景？"
+title: 说说你对算法的理解？应用场景？
 pubDate: 2021-01-02
-description: ""
-author: "wunhao"
-
-tags: ["astro", "sdsad", "fefq0", "qwdqw", "grg", "wdqw"]
-categories: ["算法", "面试", "dd"]
+description: description
+author: wunhao
+tags:
+  - astro
+  - sdsad
+  - fefq0
+  - qwdqw
+  - grg
+  - wdqw
+categories:
+  - 算法
+  - 面试
+  - dd
 popular: true
-cover: "./maximalfocus.jpg"
-coveralt: "The word “astro” against an illustration of planets and stars."
+cover: ./maximalfocus.jpg
+coveralt: The word “astro” against an illustration of planets and stars.
 ---
 
 ![](https://static.vue-js.com/eca03690-1620-11ec-8e64-91fdec0f05a1.png)
