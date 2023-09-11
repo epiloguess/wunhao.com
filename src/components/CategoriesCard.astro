@@ -12,7 +12,7 @@ const categories = [
 <Card title="CATEGORIES">
   <div class="flex flex-col gap-2">
     {
-      categories.map((category) => {
+      categories.map((category: string) => {
         const categoryNum = allPosts.filter((post) =>
           post.data.categories.includes(category)
         ).length;
