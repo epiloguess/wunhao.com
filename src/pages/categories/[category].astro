@@ -32,7 +32,7 @@ const { posts } = Astro.props;
     </div>
   </div>
   <div class="flex flex-col gap-8" slot="sidebar-content">
-    <CategoriesCard />
-    <TagsCard />
+    <CategoriesCard posts={posts} />
+    <TagsCard posts={posts} />
   </div>
 </Layout>

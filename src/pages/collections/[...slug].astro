@@ -36,7 +36,7 @@ const { posts, collection } = Astro.props;
 <Layout title={collection}>
   <BlogPost slot="article-content" posts={posts} />
   <section slot="sidebar-content" class="flex flex-col gap-8">
-    <CategoriesCard />
-    <TagsCard />
+    <CategoriesCard posts={posts} />
+    <TagsCard posts={posts} />
   </section>
 </Layout>
