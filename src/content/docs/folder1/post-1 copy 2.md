@@ -7,7 +7,7 @@ author: "Astro 学习者"
 cover: "./assets/cover.png"
 coveralt: "The full Astro logo."
 tags: ["test2"]
-categories: ["学习"]
+categories: ["category2"]
 draft: false
 popular: true
 ---
