@@ -1,12 +1,12 @@
 ---
 title: "我的第一篇博客文章"
-pubDate: 2014-02-25
-description: "这是我 Astro 博客的第一篇文章。"
+pubDate: 2015-02-25
+description: "这是我 Astro 博客的第二篇文章。"
 author: "Astro 学习者"
 
 cover: "./assets/cover.png"
 coveralt: "The full Astro logo."
-tags: ["astro", "popular"]
+tags: ["test6"]
 categories: ["学习"]
 draft: false
 popular: true
@@ -23,15 +23,3 @@ popular: true
 3.  **发表博客文章**：这是我的第一篇博客文章！我现在有用 Astro 编写的页面和用 Markdown 写的文章了！
 
 我将完成 Astro 教程，然后继续编写更多内容。关注我以获取更多信息。
-
-```bash
-function setproxy {
-	Set-Item Env:http_proxy "http://127.0.0.1:1080"  # 代理地址
-	Set-Item Env:https_proxy "http://127.0.0.1:1080" # 代理地址
-}
-
-function unsetproxy {
-    Remove-Item Env:http_proxy
-    Remove-Item Env:https_proxy
-}
-```
