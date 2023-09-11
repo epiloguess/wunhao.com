@@ -1,0 +1,54 @@
+---
+import Layout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const allPosts = await getCollection("docs");
+const categories = [
+  ...new Set(
+    allPosts
+      .map((post) => {
+        const postPathWithoutSelf = post.slug.split("/");
+        postPathWithoutSelf.pop();
+        return postPathWithoutSelf.join("/");
+      })
+      .flat()
+  ),
+];
+---
+
+<Layout title="test">
+  <div>
+    {
+      allPosts.map((post) => {
+        const postLength = post.slug.split("/").length;
+        const collection = post.slug.split("/")[postLength - 2];
+        const postPathWithoutSelf = post.slug
+          .split("/")
+          .slice(0, postLength - 1)
+          .join("/");
+
+        const postAtSameFolder = allPosts.filter(
+          (post) =>
+            post.slug.startsWith(postPathWithoutSelf) &&
+            (post.slug.split("/").length = postLength)
+        );
+
+        return (
+          <section>
+            {postAtSameFolder.map((post) => (
+              <div>{post.id} </div>
+            ))}
+          </section>
+        );
+      })
+    }
+  </div>
+</Layout>
+
+<style>
+  details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+  }
+</style>

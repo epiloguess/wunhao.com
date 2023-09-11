@@ -19,14 +19,14 @@ import { Image } from "astro:assets";
   <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
     {
       PopularPosts.slice(0, 6).map((post) => (
-        <div class="border-b border-gray-300 md:border border-solid rounded p-0 md:px-4 md:py-2 xl:py-4 flex items-center gap-4">
+        <div class=" border-gray-300 md:border border-solid rounded p-0 md:px-4 md:py-2 xl:py-4 flex items-center gap-4">
           <Image
             src={post.data.cover}
             alt={post.data.coveralt}
             width={40}
             class=" object-contain"
           />
-          <a class="flex flex-col gap-1  " href={`/${post.slug}`}>
+          <a class="flex flex-col gap-1  " href={`/docs/${post.slug}`}>
             <time class=" text-gray-500 hidden md:block text-sm">{`${
               post.data.pubDate.getMonth() + 1
             } 月 ${post.data.pubDate.getDate()} 日， ${post.data.pubDate.getFullYear()}`}</time>

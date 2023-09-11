@@ -2,26 +2,32 @@
 import { getCollection } from "astro:content";
 import Card from "./Card.astro";
 const allPosts = await getCollection("docs");
+const { posts } = Astro.props;
+
 const categories = [
-  ...new Set(allPosts.map((post) => post.data.categories).flat()),
+  ...new Set(posts.map((post) => post.data.categories).flat()),
 ];
 ---
 
-<Card title="Categories">
-  <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
+<Card title="CATEGORIES">
+  <div class="flex flex-col gap-2">
     {
-      categories.map((category) => (
-        <li>
+      categories.map((category) => {
+        const categoryNum = allPosts.filter((post) =>
+          post.data.categories.includes(category)
+        ).length;
+        return (
           <a
-            class=" underline text-indigo-500 font-semibold"
+            class=" text-sm  flex justify-between hover:text-blue-400"
             href={`/categories/${category}`}
           >
-            {category}
+            <div class="font-semibold">{category}</div>
+            <div class=" ">{categoryNum}</div>
           </a>
-        </li>
-      ))
+        );
+      })
     }
-  </ul>
+  </div>
 </Card>
 
 <style></style>

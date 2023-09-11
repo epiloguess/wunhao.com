@@ -19,7 +19,7 @@ const { categories, tags, pubDate } = Astro.props;
     <div class="flex flex-wrap gap-2">
       {
         categories.map((tag) => (
-          <a href={`/categories/${tag}`} class=" underline text-indigo-500">
+          <a href={`/categories/${tag}`} class="  text-indigo-500">
             {tag}
           </a>
         ))
@@ -31,7 +31,7 @@ const { categories, tags, pubDate } = Astro.props;
     <div class="flex flex-wrap gap-2">
       {
         tags.map((tag) => (
-          <a class=" underline text-indigo-500" href={`/tags/${tag}`}>
+          <a class="  text-indigo-500" href={`/tags/${tag}`}>
             {tag}
           </a>
         ))

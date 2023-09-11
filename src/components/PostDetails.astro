@@ -1,27 +1,13 @@
 ---
-import { getCollection } from "astro:content";
 import Layout from "./Card.astro";
 const { post } = Astro.props;
-
-const postLength = post.slug.split("/").length;
-const postPath = post.slug
+const NameOfFatherFolder = post.slug
   .split("/")
-  .slice(0, postLength - 1)
+  .slice(0, post.slug.split("/").length - 1)
   .join("/");
-const allPost = await getCollection("docs");
-const postSameLength = allPost.filter((post) => {
-  post.slug.startsWith(postPath);
-});
 ---
 
 <Layout title="Post Details">
-  <div>
-    {postLength}
-  </div>
-  <div>
-    {postPath}
-  </div>
-  <div>{postSameLength.length}</div>
   <div class="flex flex-col gap-5">
     <section>
       <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
@@ -34,19 +20,30 @@ const postSameLength = allPost.filter((post) => {
         </li>
       </ul>
     </section>
-
+    <section class="flex flex-col gap-5">
+      <h2 class="font-bold">Collection</h2>
+      <div class="flex flex-wrap gap-2">
+        <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
+          <li>
+            <a
+              href={`/collections/${NameOfFatherFolder}`}
+              class="text-indigo-500"
+            >
+              {NameOfFatherFolder}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
     <section class="flex flex-col gap-5">
       <h2 class="font-bold">Categories</h2>
       <div class="flex flex-wrap gap-2">
         <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
           {
-            post.data.categories.map((tag) => (
+            post.data.categories.map((category) => (
               <li>
-                <a
-                  href={`/categories/${tag}`}
-                  class=" underline text-indigo-500"
-                >
-                  {tag}
+                <a href={`/categories/${category}`} class="  text-indigo-500">
+                  {category}
                 </a>
               </li>
             ))
@@ -57,17 +54,16 @@ const postSameLength = allPost.filter((post) => {
     <section class="flex flex-col gap-5">
       <h2 class="font-bold">Tags</h2>
       <div class="flex flex-wrap gap-2">
-        <ul class="marker:text-green-400 list-disc pl-5 space-y-3 text-sm">
-          {
-            post.data.tags.map((tag) => (
-              <li>
-                <a class=" underline text-indigo-500 " href={`/tags/${tag}`}>
-                  {tag}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
+        {
+          post.data.tags.map((tag) => (
+            <a
+              class=" py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              href={`/tags/${tag}`}
+            >
+              {tag}
+            </a>
+          ))
+        }
       </div>
     </section>
   </div>

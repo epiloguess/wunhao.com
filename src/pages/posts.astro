@@ -12,7 +12,7 @@ import BlogPost from "../components/BlogPostByYears.astro";
 <Layout title="Writing">
   <BlogPost slot="article-content" posts={allPosts} />
   <section slot="sidebar-content" class="flex flex-col gap-8">
-    <CategoriesCard />
-    <TagsCard />
+    <CategoriesCard posts={allPosts} />
+    <TagsCard posts={allPosts} />
   </section>
 </Layout>

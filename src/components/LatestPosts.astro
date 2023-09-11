@@ -17,7 +17,7 @@ const PostsStorted = allPosts.sort(
       PostsStorted.slice(0, 6).map((post) => (
         <a
           class=" py-1 flex justify-between border-b border-gray-300 "
-          href={`/${post.slug}`}
+          href={`/docs/${post.slug}`}
         >
           <text class=" ">{post.data.title}</text>
           <time class=" text-gray-500 hidden md:block">{`${

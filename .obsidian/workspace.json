@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "393cad51edb1cbbb",
+        "id": "a3e7aff683351546",
         "type": "tabs",
         "children": [
           {
-            "id": "3d27a0afe3348137",
+            "id": "d2ad3abedc81863a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/docs/others/post-1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/others/post-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/docs/others/post-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/content/docs/others/post-1.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -146,12 +138,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3d27a0afe3348137",
+  "active": "d2ad3abedc81863a",
   "lastOpenFiles": [
-    "src/content/docs/others/git基础使用.md",
-    "src/content/docs/css/animation.md",
-    "src/content/docs/applet/applet.md",
     "src/content/docs/algorithm/Algorithm.md",
+    "src/content/docs/applet/applet.md",
+    "src/content/docs/css/animation.md",
+    "src/content/docs/others/git基础使用.md",
+    "src/content/docs/others/post-1.md",
     "src/content/docs/algorithm/aaa/Algorithm.md"
   ]
 }

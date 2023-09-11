@@ -13,8 +13,6 @@ draft: true
 popular: true
 ---
 
-![aa](./assets/cover.png)
-
 ```shell
 git config user.name
 

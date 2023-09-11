@@ -1,0 +1,42 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/SideBarLayout.astro";
+import CategoriesCard from "../../components/CategoriesCard.astro";
+import TagsCard from "../../components/TagsCard.astro";
+import BlogPost from "../../components/BlogPostByYears.astro";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("docs");
+  const paths = allPosts.map((post) => {
+    const postLength = post.slug.split("/").length;
+    const postPath = post.slug.split("/");
+    postPath.pop();
+    const collection = post.slug.split("/")[postLength - 2];
+    const postPathWithoutSelf = post.slug
+      .split("/")
+      .slice(0, postLength - 1)
+      .join("/");
+
+    const postAtSameFolder = allPosts.filter(
+      (post) =>
+        post.id.startsWith(postPathWithoutSelf) &&
+        (post.slug.split("/").length = postLength)
+    );
+    return {
+      params: { slug: postPath.join("/") || undefined },
+      props: { posts: postAtSameFolder, collection: collection },
+    };
+  });
+  return paths;
+}
+
+const { posts, collection } = Astro.props;
+---
+
+<Layout title={collection}>
+  <BlogPost slot="article-content" posts={posts} />
+  <section slot="sidebar-content" class="flex flex-col gap-8">
+    <CategoriesCard />
+    <TagsCard />
+  </section>
+</Layout>
