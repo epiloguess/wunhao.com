@@ -12,11 +12,11 @@ import cover from "../assets/cover.jpg";
 
 <Layout title="Wun-Hao's Blog">
   <div class="flex flex-col gap-10">
-    <section class="prose-lg grid hero-warpper">
+    <section class="prose-lg md:grid hero-warpper">
       <div>
         <Content />
       </div>
-      <Image src={cover} alt="cover" class="rounded-full" />
+      <Image src={cover} alt="cover" class="hidden md:block rounded-full" />
     </section>
     <LatestPosts />
     <Popular />
