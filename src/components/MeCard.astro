@@ -1,7 +1,9 @@
 ---
 import Layout from "./Card.astro";
+import { Image } from "astro:assets";
+import src from "../assets/me.jpg";
 ---
 
 <Layout title="Me">
-  <img src=" /assets/me.jpg" />
+  <Image src={src} alt="me" />
 </Layout>

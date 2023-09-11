@@ -4,6 +4,7 @@ import Layout from "../../layouts/SideBarLayout.astro";
 import CategoriesCard from "../../components/CategoriesCard.astro";
 import TagsCard from "../../components/TagsCard.astro";
 import BlogPost from "../../components/BlogPostByYears.astro";
+const allPosts = await getCollection("docs");
 
 export async function getStaticPaths() {
   const allPosts = await getCollection("docs");
@@ -32,7 +33,7 @@ const { posts } = Astro.props;
     </div>
   </div>
   <div class="flex flex-col gap-8" slot="sidebar-content">
-    <CategoriesCard posts={posts} />
-    <TagsCard posts={posts} />
+    <CategoriesCard posts={allPosts} />
+    <TagsCard posts={allPosts} />
   </div>
 </Layout>

@@ -6,14 +6,27 @@ import LatestPosts from "../components/LatestPosts.astro";
 import Popular from "../components/Popular.astro";
 const page = await getEntry("blog", "aboutme");
 const { Content } = await page.render();
+import { Image } from "astro:assets";
+import cover from "../assets/cover.jpg";
 ---
 
 <Layout title="Wun-Hao's Blog">
   <div class="flex flex-col gap-10">
-    <section class="prose-base">
-      <Content />
+    <section class="prose-lg grid hero-warpper">
+      <div>
+        <Content />
+      </div>
+      <Image src={cover} alt="cover" class="rounded-full" />
     </section>
     <LatestPosts />
     <Popular />
   </div>
 </Layout>
+
+<style>
+  .hero-warpper {
+    align-items: center;
+    gap: 1.5rem;
+    grid-template-columns: 3fr 1fr;
+  }
+</style>
