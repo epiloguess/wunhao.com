@@ -8,14 +8,14 @@ import Layout from "./BaseLayout.astro";
 ---
 
 <Layout title={title}>
-  <div class="lg:flex justify-between gap-5">
+  <div class="md:flex justify-between gap-5">
     <section class="flex flex-col gap-10 flex-auto">
       <header>
         <h1 class="text-4xl font-bold">{title}</h1>
       </header>
       <slot name="article-content" />
     </section>
-    <section class="hidden lg:block w-[280px] min-w-[280px]">
+    <section class="hidden md:block w-[280px] min-w-[280px]">
       <slot name="sidebar-content" />
     </section>
   </div>

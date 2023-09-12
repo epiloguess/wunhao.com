@@ -12,7 +12,7 @@ import { Image } from "astro:assets";
 
 <div class="flex flex-col gap-5">
   <section class="flex justify-between items-center">
-    <h2 class="text-3xl font-bold">Popular</h2>
+    <h2 class="text-xl font-bold">Popular</h2>
     <ViewALL path="/tags/popular" />
   </section>
 
@@ -20,7 +20,7 @@ import { Image } from "astro:assets";
     {
       PopularPosts.slice(0, 6).map((post) => (
         <a
-          class="py-1 md:py-4 rounded flex flex-col justify-between border-b md:border border-gray-300     md:items-center gap-4     "
+          class="py-1 md:py-4 rounded flex flex-col justify-between border-b md:border border-gray-300     md:items-center gap-4 md:hover:shadow md:hover:-translate-y-1    "
           href={`/docs/${post.slug}`}
         >
           <time class=" text-gray-500 hidden md:block text-sm">{`${

@@ -1,14 +1,13 @@
 ---
-title: "About Me"
-pubDate: 2023-02-10
+title: About Me
+pubDate: 2023-09-12
 description: ""
-author: "wunhao"
-
-cover: "./cover.png"
-coveralt: ""
-tags: ["astro", "popular"]
-popular: true
-categories: ["astro"]
+author: wunhao
+tags:
+  - aboutme
+popular: false
+categories:
+  - blog
 ---
 
 ## Hey, I'm Wun-Hao!

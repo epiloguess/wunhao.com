@@ -9,14 +9,14 @@ const PostsStorted = allPosts.sort(
 
 <div class="flex flex-col gap-5">
   <section class="flex justify-between items-center">
-    <h2 class="text-2xl font-bold">Latest Posts</h2>
+    <h2 class="text-xl font-bold">Latest Posts</h2>
     <ViewALL path="/posts" />
   </section>
   <div class="flex flex-col gap-2">
     {
       PostsStorted.slice(0, 6).map((post) => (
         <a
-          class=" py-1 flex justify-between border-b border-gray-300 "
+          class=" py-1 flex justify-between border-b border-gray-300   hover:shadow-2xl  "
           href={`/docs/${post.slug}`}
         >
           <text class=" ">{post.data.title}</text>

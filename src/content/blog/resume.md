@@ -1,15 +1,13 @@
 ---
-title: "Resume"
-pubDate: 2023-02-10
-
+title: Resume
+pubDate: 2023-09-12
 description: ""
-author: "wunhao"
-
-cover: "./cover.png"
-coveralt: ""
-tags: ["astro", "popular"]
-popular: true
-categories: ["astro"]
+author: wunhao
+tags:
+  - resume
+popular: false
+categories:
+  - blog
 ---
 
 # 张文浩
