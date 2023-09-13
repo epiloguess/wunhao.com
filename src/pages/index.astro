@@ -43,21 +43,15 @@ const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
   }
 
   @keyframes go-left-right {
-    /* 指定一个名字："go-left-right" */
     from {
-      transform: rotate(-60deg);
-    } /* 从 left: 0px 开始 */
+      transform: rotate(-45deg);
+    }
     to {
-      transform: rotate(60deg);
-    } /* 移动至 left: 100%-50px */
+      transform: rotate(45deg);
+    }
   }
 
   .progress {
     animation: go-left-right 4s infinite alternate;
-    /* 把动画 "go-left-right" 应用到元素上
-       持续 3 秒
-       持续次数：infinite
-       每次都改变方向
-    */
   }
 </style>

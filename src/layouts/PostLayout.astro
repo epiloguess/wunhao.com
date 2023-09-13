@@ -2,7 +2,7 @@
 const { post } = Astro.props;
 import Layout from "./SideBarLayout.astro";
 
-import AboutMe from "../components/AboutMe.astro";
+import AboutMe from "../components/index/AboutMe.astro";
 import PostDetails from "../components/PostDetails.astro";
 import PostDetailsSmall from "../components/PostDetailsSmall.astro";
 ---
@@ -10,11 +10,7 @@ import PostDetailsSmall from "../components/PostDetailsSmall.astro";
 <Layout title={post.data.title}>
   <section slot="article-content">
     <section class="md:hidden">
-      <PostDetailsSmall
-        categories={post.data.categories}
-        tags={post.data.tags}
-        pubDate={post.data.pubDate}
-      />
+      <PostDetailsSmall post={post} />
     </section>
 
     <section
