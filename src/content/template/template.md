@@ -1,7 +1,7 @@
 ---
-title: "default"
+title: default
 pubDate: 2023-01-01
-description: "一些示范性的描述"
+description: ""
 author: 文浩
 categories:
   - default

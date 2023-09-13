@@ -1,0 +1,26 @@
+---
+const { path } = Astro.props;
+---
+
+<a
+  class="flex gap-2 justify-center items-center px-4 py-2 rounded-md hover:text-sky-600 hover:underline underline-offset-4 decoration-sky-600 decoration-wavy"
+  href={path}
+  >View All
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="icon icon-tabler icon-tabler-arrow-narrow-right"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    stroke-width="2"
+    stroke="currentColor"
+    fill="none"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+    <path d="M5 12l14 0"></path>
+    <path d="M15 16l4 -4"></path>
+    <path d="M15 8l4 4"></path>
+  </svg>
+</a>

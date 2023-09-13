@@ -2,24 +2,34 @@
 import { getEntry } from "astro:content";
 
 import Layout from "../layouts/BaseLayout.astro";
-import LatestPosts from "../components/LatestPosts.astro";
-import Popular from "../components/Popular.astro";
+import Posts from "../components/index/Posts.astro";
 const page = await getEntry("blog", "aboutme");
 const { Content } = await page.render();
 import { Image } from "astro:assets";
 import cover from "../assets/cover.jpg";
+
+import { getCollection } from "astro:content";
+const allPosts = await getCollection("docs");
+const PostsStorted = allPosts.sort(
+  (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
+);
+const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
 ---
 
 <Layout title="Wun-Hao's Blog">
   <div class="flex flex-col gap-10">
-    <section class="prose-base md:grid hero-warpper">
+    <section class="prose-sm md:grid hero-warpper">
       <div>
         <Content />
       </div>
-      <Image src={cover} alt="cover" class="hidden md:block rounded-full" />
+      <Image
+        src={cover}
+        alt="cover"
+        class="hidden md:block rounded-full progress"
+      />
     </section>
-    <LatestPosts />
-    <Popular />
+    <Posts posts={PostsStorted} title="Latest" path="/posts" />
+    <Posts posts={PopularPosts} title="Featured" path="/featured" />
   </div>
 </Layout>
 
@@ -28,5 +38,24 @@ import cover from "../assets/cover.jpg";
     align-items: center;
     gap: 1.5rem;
     grid-template-columns: 3fr 1fr;
+  }
+
+  @keyframes go-left-right {
+    /* 指定一个名字："go-left-right" */
+    from {
+      transform: rotate(0);
+    } /* 从 left: 0px 开始 */
+    to {
+      transform: rotate(90deg);
+    } /* 移动至 left: 100%-50px */
+  }
+
+  .progress {
+    animation: go-left-right 3s infinite alternate;
+    /* 把动画 "go-left-right" 应用到元素上
+       持续 3 秒
+       持续次数：infinite
+       每次都改变方向
+    */
   }
 </style>

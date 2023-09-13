@@ -1,3 +1,7 @@
 {
-  "focusNewTab": true
+  "focusNewTab": true,
+  "userIgnoreFilters": null,
+  "showLineNumber": true,
+  "propertiesInDocument": "visible",
+  "strictLineBreaks": true
 }

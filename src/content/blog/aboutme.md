@@ -10,8 +10,6 @@ categories:
   - blog
 ---
 
-## Hey, I'm Wun-Hao!
+## 你好，我是文浩！
 
-Welcome to my digital garden.
-
-I'm a software developer in China. I make open-source projects and write about code, design, and life. I like accordions, drawing, sci-fi, reading, and gaming.
+欢迎来到我的博客
