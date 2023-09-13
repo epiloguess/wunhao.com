@@ -18,7 +18,9 @@ const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
 
 <Layout title="Wun-Hao's Blog">
   <div class="flex flex-col gap-10">
-    <section class="prose-sm md:grid hero-warpper">
+    <section
+      class="prose-sm md:grid hero-warpper border-b border-gray-300 py-4"
+    >
       <div>
         <Content />
       </div>
@@ -43,15 +45,15 @@ const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
   @keyframes go-left-right {
     /* 指定一个名字："go-left-right" */
     from {
-      transform: rotate(0);
+      transform: rotate(-60deg);
     } /* 从 left: 0px 开始 */
     to {
-      transform: rotate(90deg);
+      transform: rotate(60deg);
     } /* 移动至 left: 100%-50px */
   }
 
   .progress {
-    animation: go-left-right 3s infinite alternate;
+    animation: go-left-right 4s infinite alternate;
     /* 把动画 "go-left-right" 应用到元素上
        持续 3 秒
        持续次数：infinite

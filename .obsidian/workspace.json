@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/template/template.md",
-                "mode": "preview",
+                "file": "src/content/docs/windows/powershell使用代理.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/template/template.md",
+                "file": "src/content/docs/windows/powershell使用代理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/template/template.md",
+                "file": "src/content/docs/windows/powershell使用代理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/template/template.md"
+                "file": "src/content/docs/windows/powershell使用代理.md"
               }
             }
           }
@@ -164,9 +164,12 @@
   },
   "active": "6bf1b5fb92685205",
   "lastOpenFiles": [
+    "src/content/template/template.md",
+    "src/content/docs/windows/powershell使用代理.md",
+    "src/content/docs/windows",
+    "src/content/docs/新建文件夹",
     "src/content/docs/folder3/post-1 copy 5.md",
     "src/content/docs/folder1/post-1 copy 2.md",
-    "src/content/template/template.md",
     "src/content/template",
     "src/content/blog/about.md",
     "src/content/blog/aboutme.md",
