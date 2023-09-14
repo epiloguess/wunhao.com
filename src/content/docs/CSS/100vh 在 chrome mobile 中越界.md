@@ -12,14 +12,10 @@ popular: true
 draft: false
 ---
 
-使用最新的 `svh` 的单位可以解决问题
+使用最新的 `dvh` 的单位可以解决问题
 
-![alt](assets/Pasted%20image%2020230914203946.png)
-
+![](./assets/Pasted%20image%2020230915030107.png)
 
 ### 参考资料
 
-
 - [html - CSS3 100vh not constant in mobile browser - Stack Overflow](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser)
-
-

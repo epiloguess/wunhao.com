@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7c934b07987ca22b",
+        "id": "cd594ea71db7f144",
         "type": "tabs",
         "children": [
           {
-            "id": "6bf1b5fb92685205",
+            "id": "ae6283ce868597ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/CSS/100vh 在 chrome mobile 中越界.md",
+                "file": "src/content/docs/css/100vh 在 chrome mobile 中越界.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/CSS/100vh 在 chrome mobile 中越界.md",
+                "file": "src/content/docs/css/100vh 在 chrome mobile 中越界.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/docs/CSS/100vh 在 chrome mobile 中越界.md",
+                "file": "src/content/docs/css/100vh 在 chrome mobile 中越界.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/CSS/100vh 在 chrome mobile 中越界.md"
+                "file": "src/content/docs/css/100vh 在 chrome mobile 中越界.md"
               }
             }
           }
@@ -162,21 +162,33 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6bf1b5fb92685205",
+  "active": "ae6283ce868597ae",
   "lastOpenFiles": [
+    "src/content/template/template.md",
+    "src/content/docs/css/100vh 在 chrome mobile 中越界.md",
     "src/content/docs/windows/powershell使用代理.md",
-    "src/content/docs/CSS/100vh 在 chrome mobile 中越界.md",
+    "src/content/docs/css/assets/Pasted image 20230915030107.png",
+    "src/content/docs/css/`assets/Pasted image 20230915030046.png",
+    "src/content/docs/css/`assets",
+    "Pasted image 20230915030005.png",
+    "src/content/docs/css/assets",
+    "src/content/assets/Pasted image 20230915025901.png",
+    "src/content/assets/default(2).jpeg",
+    "src/content/assets/default (2).jpeg",
+    "default (2).jpeg",
+    "default (1).jpeg",
+    "src/content/assets/1675239964931.jpg",
+    "src/content/docs/CSS/assets/Pasted-image-20230914211332.png",
+    "src/content/assets",
     "src/content/docs/Todo/未命名.md",
-    "src/content/docs/CSS/assets/Pasted image 20230914203946.png",
     "src/content/docs/CSS/assets",
     "src/content/docs/Todo",
     "README.md",
-    "src/content/docs/CSS",
+    "src/content/docs/css",
     "src/content/docs/windows/powershell使用代理 copy.md",
     "src/content/docs/windows/powershell使用代理 copy 4.md",
     "src/content/docs/windows/powershell使用代理 copy 3.md",
     "src/content/docs/windows/powershell使用代理 copy 2.md",
-    "src/content/template/template.md",
     "src/content/docs/windows",
     "src/content/docs/新建文件夹",
     "src/content/docs/folder3/post-1 copy 5.md",
@@ -185,11 +197,8 @@
     "src/content/blog/about.md",
     "src/content/blog/aboutme.md",
     "src/content/blog/resume.md",
-    "src/content/blog/cover.png",
     "2023-02-10.md",
-    "src/content/docs/algorithm/cover.png",
     "src/content/docs/applet/applet.md",
-    "src/content/docs/applet/cover.png",
     "src/content/docs/CSS/animation.md",
     "src/content/docs/others/git基础使用.md",
     "src/content/docs/others/post-1.md",

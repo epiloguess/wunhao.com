@@ -7,6 +7,8 @@
   "attachmentFolderPath": "./assets",
   "newFileLocation": "folder",
   "newFileFolderPath": "src/content/docs/Todo",
-  "newLinkFormat": "absolute",
-  "useMarkdownLinks": true
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }
