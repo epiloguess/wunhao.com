@@ -20,19 +20,16 @@ import Footer from "../components/BaseLayout/Footer.astro";
     <title>{title}</title>
   </head>
   <body
-    ><div class="h-[5vh] bg-[#eeeeee]"></div>
-    <div
-      class="flex flex-col content-end h-[95vh] m-auto max-w-screen-lg bg-[#eeeeee]"
-    >
-      <Nav />
-      <section class="flex-1 overflow-auto md:overflow-visible px-4">
-        <main>
-          <slot />
-        </main>
-        <Footer />
-      </section>
-      <NavAtFooter />
-    </div>
+    class="flex flex-col content-end h-[100svh] m-auto max-w-screen-lg bg-[#eeeeee]"
+  >
+    <Nav />
+    <section class="flex-1 overflow-auto md:overflow-visible px-4">
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </section>
+    <NavAtFooter />
   </body>
 </html>
 <style is:global></style>
