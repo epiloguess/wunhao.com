@@ -9,6 +9,7 @@ tags:
   - 代理
   - Powershell
 popular: true
+draft: "true"
 ---
 
 [配置 Powershell 命令行代理 | anuoua 的](https://anuoua.github.io/2019/08/11/%E9%85%8D%E7%BD%AEPowershell%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%BB%A3%E7%90%86/)

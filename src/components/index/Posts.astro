@@ -6,7 +6,7 @@ const { posts, title, path } = Astro.props;
 
 <div class="flex flex-col gap-4 border-b border-gray-300">
   <h2 class="text-2xl font-bold">{title}</h2>
-  <div class="flex flex-col gap-5">
+  <div class="flex flex-col gap-4">
     {
       posts.slice(0, 6).map((post) => (
         <div class=" flex flex-col gap-1">

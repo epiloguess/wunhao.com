@@ -3,5 +3,10 @@
   "userIgnoreFilters": null,
   "showLineNumber": true,
   "propertiesInDocument": "visible",
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "attachmentFolderPath": "./assets",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "src/content/docs/Todo",
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true
 }
