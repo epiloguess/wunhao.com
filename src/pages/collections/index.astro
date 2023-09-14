@@ -3,9 +3,15 @@ import Layout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
 const allPosts = await getCollection("docs");
+const uniqueFolder = allPosts.map((post) =>
+  post.slug
+    .split("/")
+    .slice(0, post.slug.length - 2)
+    .join("/")
+);
 ---
 
-<Layout title="test">
+<Layout title="Collections">
   <div>
     {
       allPosts.map((post) => {
@@ -31,6 +37,9 @@ const allPosts = await getCollection("docs");
         );
       })
     }
+    <div>
+      {uniqueFolder}
+    </div>
   </div>
 </Layout>
 

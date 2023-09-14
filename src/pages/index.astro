@@ -19,15 +19,15 @@ const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
 <Layout title="Wun-Hao's Blog">
   <div class="flex flex-col gap-10">
     <section
-      class="prose-sm md:grid hero-warpper border-b border-gray-300 py-4"
+      class="flex flex-col md:flex-row md:justify-between gap-2 items-center border-b border-gray-300 p-5 md:p-10"
     >
-      <div>
+      <div class="prose-sm">
         <Content />
       </div>
       <Image
         src={cover}
         alt="cover"
-        class="hidden md:block rounded-full progress"
+        class="md:block rounded-full animate-rotate w-1/4"
       />
     </section>
     <Posts posts={PostsStorted} title="Latest" path="/posts" />
@@ -35,23 +35,4 @@ const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
   </div>
 </Layout>
 
-<style>
-  .hero-warpper {
-    align-items: center;
-    gap: 1.5rem;
-    grid-template-columns: 3fr 1fr;
-  }
-
-  @keyframes go-left-right {
-    from {
-      transform: rotate(-45deg);
-    }
-    to {
-      transform: rotate(45deg);
-    }
-  }
-
-  .progress {
-    animation: go-left-right 3s infinite alternate;
-  }
-</style>
+<style></style>

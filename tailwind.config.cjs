@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        rotate: {
+          "0%, 100%": { transform: "rotate(-45deg)" },
+          "50%": { transform: "rotate(45deg)" },
+        },
+      },
+      animation: {
+        rotate: "rotate 3s ease-in-out infinite",
+      },
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),
