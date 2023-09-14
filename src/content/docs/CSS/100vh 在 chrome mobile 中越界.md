@@ -14,7 +14,7 @@ draft: false
 
 使用最新的 `dvh` 的单位可以解决问题
 
-![](./assets/Pasted%20image%2020230915030107.png)
+![](assets/20230915030107.png)
 
 ### 参考资料
 
