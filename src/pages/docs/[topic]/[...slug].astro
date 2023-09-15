@@ -3,7 +3,10 @@ import { getCollection } from "astro:content";
 import Layout from "../../../layouts/PostLayout.astro";
 
 export async function getStaticPaths() {
-  const allposts = await getCollection("docs");
+  const allposts = await getCollection(
+    "docs",
+    (post) => post.data.draft == false
+  );
 
   const paths = allposts.map((post) => {
     const [topic, ...slug] = post.slug.split("/");

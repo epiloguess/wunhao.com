@@ -1,11 +1,14 @@
 ---
 import { getCollection } from "astro:content";
 
-const allPosts = await getCollection("docs");
+const allPosts = await getCollection(
+  "docs",
+  (post) => post.data.draft == false
+);
 
 const featuredPosts = await getCollection(
   "docs",
-  (post) => post.data.popular === true
+  (post) => post.data.featured === true
 );
 
 import Layout from "../layouts/SideBarLayout.astro";

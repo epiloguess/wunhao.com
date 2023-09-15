@@ -2,13 +2,12 @@
 title: Powershell使用代理
 pubDate: 2023-09-13
 description: 配置Powershell代理
-author: 文浩
 categories:
   - Windows
 tags:
   - 代理
   - Powershell
-popular: true
+featured: true
 draft: true
 ---
 

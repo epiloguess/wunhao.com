@@ -1,11 +1,11 @@
 ---
-title: default
-pubDate: 2023-01-01
+title: "{{title}}"
+pubDate: "{{date}}"
 description: ""
-author: 文浩
 categories:
   - default
 tags:
   - default
-popular: true
+featured: false
+draft: true
 ---

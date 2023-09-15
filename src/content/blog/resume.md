@@ -2,12 +2,12 @@
 title: Resume
 pubDate: 2023-09-12
 description: ""
-author: wunhao
-tags:
-  - resume
-popular: false
 categories:
   - blog
+tags:
+  - resume
+featured: false
+draft: false
 ---
 
 # 张文浩

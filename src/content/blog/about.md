@@ -2,12 +2,12 @@
 title: About Me
 pubDate: 2023-09-12
 description: ""
-author: wunhao
 tags:
   - aboutme
 categories:
   - blog
-popular: false
+featured: false
+draft: false
 ---
 
 你好，我是文浩！

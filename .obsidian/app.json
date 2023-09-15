@@ -1,14 +1,23 @@
 {
-  "focusNewTab": true,
-  "userIgnoreFilters": null,
-  "showLineNumber": true,
-  "propertiesInDocument": "visible",
   "strictLineBreaks": true,
-  "attachmentFolderPath": "./assets",
+  "showFrontmatter": true,
+  "showLineNumber": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "src/content/docs/Todo",
-  "newLinkFormat": "relative",
-  "useMarkdownLinks": true,
+  "attachmentFolderPath": "src/content/assets",
+  "promptDelete": false,
+  "fileSortOrder": "byModifiedTime",
+  "spellcheckLanguages": null,
+  "useTab": false,
+  "spellcheck": true,
+  "tabSize": 2,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "newFileFolderPath": "src/content/docs/Todo",
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": true
 }

@@ -6,11 +6,10 @@ const postsCollection = defineCollection({
       title: z.string(),
       pubDate: z.date(),
       description: z.string(),
-      author: z.string(),
-      tags: z.array(z.string()),
       categories: z.array(z.string()),
-      popular: z.boolean(),
-
+      tags: z.array(z.string()),
+      featured: z.boolean(),
+      draft: z.boolean()
     })
 });
 // 导出一个 `collections` 对象来注册集合

@@ -9,11 +9,14 @@ import { Image } from "astro:assets";
 import cover from "../assets/cover.jpg";
 
 import { getCollection } from "astro:content";
-const allPosts = await getCollection("docs");
+const allPosts = await getCollection(
+  "docs",
+  (post) => post.data.draft == false
+);
 const PostsStorted = allPosts.sort(
   (a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime()
 );
-const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
+const featuredPosts = PostsStorted.filter((post) => post.data.featured == true);
 ---
 
 <Layout title="Wun-Hao's Blog">
@@ -27,11 +30,11 @@ const PopularPosts = PostsStorted.filter((post) => post.data.popular == true);
       <Image
         src={cover}
         alt="cover"
-        class="md:block rounded-full animate-rotate w-1/4"
+        class="md:block rounded-full animate-rotate w-1/3 md:w-1/4"
       />
     </section>
     <Posts posts={PostsStorted} title="Latest" path="/posts" />
-    <Posts posts={PopularPosts} title="Featured" path="/featured" />
+    <Posts posts={featuredPosts} title="Featured" path="/featured" />
   </div>
 </Layout>
 

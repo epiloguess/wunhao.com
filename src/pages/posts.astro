@@ -1,7 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 
-const allPosts = await getCollection("docs");
+const allPosts = await getCollection(
+  "docs",
+  (post) => post.data.draft == false
+);
 
 import Layout from "../layouts/SideBarLayout.astro";
 import CategoriesCard from "../components/CategoriesCard.astro";
@@ -11,7 +14,7 @@ import BlogPost from "../components/BlogPostByYears.astro";
 
 <Layout title="Writing">
   <BlogPost slot="article-content" posts={allPosts} />
-  <section slot="sidebar-content" class="flex flex-col gap-8">
+  <section slot="sidebar-content" class="flex flex-col gap-4">
     <CategoriesCard posts={allPosts} />
     <TagsCard posts={allPosts} />
   </section>

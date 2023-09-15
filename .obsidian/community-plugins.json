@@ -1,5 +1,12 @@
 [
-  "obsidian-auto-link-title",
   "obsidian-pangu",
-  "obsidian-git"
+  "obsidian-file-cleaner",
+  "smart-random-note",
+  "note-refactor-obsidian",
+  "auto-classifier",
+  "tag-wrangler",
+  "obsidian-auto-link-title",
+  "find-unlinked-files",
+  "obsidian-paste-image-rename",
+  "oz-clear-unused-images"
 ]

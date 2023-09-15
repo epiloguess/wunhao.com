@@ -4,10 +4,16 @@ import Layout from "../../layouts/SideBarLayout.astro";
 import CategoriesCard from "../../components/CategoriesCard.astro";
 import TagsCard from "../../components/TagsCard.astro";
 import BlogPost from "../../components/BlogPostByYears.astro";
-const allPosts = await getCollection("docs");
+const allPosts = await getCollection(
+  "docs",
+  (post) => post.data.draft == false
+);
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection("docs");
+  const allPosts = await getCollection(
+    "docs",
+    (post) => post.data.draft == false
+  );
   const uniqueTags = [
     ...new Set(allPosts.map((post) => post.data.tags).flat()),
   ];
@@ -30,7 +36,7 @@ const { posts } = Astro.props;
   <div slot="article-content">
     <BlogPost posts={posts} />
   </div>
-  <div class="flex flex-col gap-8" slot="sidebar-content">
+  <div class="flex flex-col gap-4" slot="sidebar-content">
     <CategoriesCard posts={allPosts} />
     <TagsCard posts={allPosts} />
   </div>

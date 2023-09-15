@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "4fd8d2963c26a255",
+    "id": "f1b5e6ca59717bfa",
     "type": "split",
     "children": [
       {
-        "id": "cd594ea71db7f144",
+        "id": "d22a8ede90d2b563",
         "type": "tabs",
         "children": [
           {
-            "id": "ae6283ce868597ae",
+            "id": "159a06af7921d29a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/css/100vh 在 chrome mobile 中越界.md",
+                "file": "src/content/docs/todo/回流和重绘.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,91 +25,79 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d2304c0de6a26ab1",
+    "id": "aa6af0687083377a",
     "type": "split",
     "children": [
       {
-        "id": "b0d0b12ac4b73550",
+        "id": "d6ac8eb55b0a790a",
         "type": "tabs",
         "children": [
           {
-            "id": "6bf0eccdcc71907d",
+            "id": "ebd30282989be831",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
           {
-            "id": "2201758eb57d3d4f",
+            "id": "814fd9b029e5b1c9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "cd44f968a0fa8df3",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "637d889e47e4f19b",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 285.49999618530273
   },
   "right": {
-    "id": "54c52d47d4be290b",
+    "id": "f3ed40bea7cdc821",
     "type": "split",
     "children": [
       {
-        "id": "ebfb151988d16e34",
+        "id": "eb5a838922301423",
         "type": "tabs",
         "children": [
           {
-            "id": "b557c957883ead0d",
+            "id": "757cce4f1bc651b2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/css/100vh 在 chrome mobile 中越界.md",
+                "file": "src/content/docs/todo/回流和重绘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "6a25e1f851c12757",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "src/content/docs/css/100vh 在 chrome mobile 中越界.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "7ee18cbebd754bcf",
+            "id": "0646fe3b5f8d3483",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -121,11 +109,23 @@
         ]
       },
       {
-        "id": "397d4077c7b2bf4f",
+        "id": "2fa4fb5359e82000",
         "type": "tabs",
         "children": [
           {
-            "id": "054a499418a3e679",
+            "id": "c58b345e0d1579f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/content/docs/todo/回流和重绘.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cdea64164dd52e5b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,74 +136,88 @@
             }
           },
           {
-            "id": "8e537214104eb3b0",
+            "id": "835e7e9ec54569f2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/css/100vh 在 chrome mobile 中越界.md"
+                "file": "src/content/docs/todo/回流和重绘.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-file-cleaner:清理文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "workspaces:管理工作区布局": false,
+      "audio-recorder:开始/结束录音": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "ae6283ce868597ae",
+  "active": "159a06af7921d29a",
   "lastOpenFiles": [
-    "src/content/template/template.md",
-    "src/content/docs/css/100vh 在 chrome mobile 中越界.md",
-    "src/content/docs/windows/powershell使用代理.md",
-    "src/content/docs/css/assets/20230915030107.png",
-    "src/content/docs/css/`assets/Pasted image 20230915030046.png",
-    "src/content/docs/css/`assets",
-    "Pasted image 20230915030005.png",
-    "src/content/docs/css/assets",
-    "src/content/assets/Pasted image 20230915025901.png",
-    "src/content/assets/default(2).jpeg",
-    "src/content/assets/default (2).jpeg",
-    "default (2).jpeg",
-    "default (1).jpeg",
-    "src/content/assets/1675239964931.jpg",
-    "src/content/docs/CSS/assets/Pasted-image-20230914211332.png",
-    "src/content/assets",
-    "src/content/docs/Todo/未命名.md",
-    "src/content/docs/CSS/assets",
-    "src/content/docs/Todo",
-    "README.md",
-    "src/content/docs/css",
-    "src/content/docs/windows/powershell使用代理 copy.md",
-    "src/content/docs/windows/powershell使用代理 copy 4.md",
-    "src/content/docs/windows/powershell使用代理 copy 3.md",
-    "src/content/docs/windows/powershell使用代理 copy 2.md",
-    "src/content/docs/windows",
+    "src/layouts/PostsLayout.astro",
+    "src/content/docs/todo/spread语法.md",
+    "src/content/docs/todo/OPTIONS 请求方法.md",
+    "src/content/docs/todo/Managing memory 管理内存.md",
+    "src/content/docs/todo/预加载 CSS.md",
+    "src/content/docs/todo/diff 算法的 patch flag.md",
+    "src/content/docs/todo/前端性能优化.md",
+    "src/content/docs/todo/typeof.md",
+    "src/content/docs/todo/indexedDB.md",
+    "src/content/docs/todo/使用 async、defer 避免阻塞.md",
+    "src/content/docs/todo/Vue生命周期.md",
+    "src/content/assets/1694772402679.png",
+    "src/content/docs/todo/CDN 缓存失效.md",
+    "src/content/docs/todo/Keyed collections  键控集合.md",
+    "src/content/docs/todo/合并多个 commit.md",
+    "src/content/docs/todo/回流和重绘.md",
+    "src/content/docs/todo/事件循环和 promise.md",
+    "src/content/docs/linux/arch linux笔记.md",
+    "src/content/docs/todo/Git.md",
+    "src/content/docs/todo/Object.keys和for...in.md",
+    "src/content/docs/todo/flex布局.md",
+    "src/content/docs/todo/使用字体而不是图片.md",
+    "src/content/docs/todo/Structured data 结构化数据.md",
+    "src/content/docs/todo/git rebase.md",
+    "src/content/docs/todo/构造函数.md",
+    "src/content/docs/todo/Javascript表达式.md",
+    "src/content/docs/todo/原型和原型链.md",
+    "src/content/docs/todo3",
     "src/content/docs/新建文件夹",
-    "src/content/docs/folder3/post-1 copy 5.md",
-    "src/content/docs/folder1/post-1 copy 2.md",
-    "src/content/template",
-    "src/content/blog/about.md",
-    "src/content/blog/aboutme.md",
-    "src/content/blog/resume.md",
-    "2023-02-10.md",
-    "src/content/docs/applet/applet.md",
-    "src/content/docs/CSS/animation.md",
-    "src/content/docs/others/git基础使用.md",
-    "src/content/docs/others/post-1.md",
-    "src/content/docs/algorithm/Algorithm.md",
-    "src/content/docs/css/animation.md",
-    "src/content/docs/algorithm/aaa/Algorithm.md"
+    "src/content/docs/todo1",
+    "src/content/docs/todo",
+    "src/content/docs/vue",
+    "src/content/docs/Todo-Web",
+    "src/content/docs/Todo-Index",
+    "src/content/docs/todo/assets/未命名.png",
+    "src/content/docs/todo/assets/2023-09-15.png",
+    "src/content/docs/todo/assets",
+    "src/content/docs/react",
+    "src/content/docs/npm",
+    "src/content/docs/css/assets/20230915030107.png",
+    "dist/_astro/me.e7d1f612.jpg",
+    "dist/_astro/cover.654e8b1a.jpg",
+    "dist/favicon.svg",
+    "src/content/assets/yoimiya.jpg",
+    "src/content/assets/Pasted image 20230818232451.png",
+    "src/content/assets/Pasted image 20230811181315.png",
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "未命名 3.canvas",
+    "未命名 2.canvas",
+    "Vue/vue画板.canvas"
   ]
 }

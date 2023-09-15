@@ -1,7 +1,10 @@
 ---
 import { getCollection } from "astro:content";
 import Card from "./Card.astro";
-const allPosts = await getCollection("docs");
+const allPosts = await getCollection(
+  "docs",
+  (post) => post.data.draft == false
+);
 const { posts } = Astro.props;
 
 const categories = [

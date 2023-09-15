@@ -2,7 +2,10 @@
 import Layout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
-const allPosts = await getCollection("docs");
+const allPosts = await getCollection(
+  "docs",
+  (post) => post.data.draft == false
+);
 const uniqueFolder = allPosts.map((post) =>
   post.slug
     .split("/")
