@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6544f69456339c44",
+        "id": "b330b1543a0927ff",
         "type": "tabs",
         "children": [
           {
-            "id": "acf208ac6a6356c3",
+            "id": "a3d2457e3588cdd1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/docs/todo/CORS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/todo/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/docs/todo/CORS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/content/docs/todo/CORS.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -167,8 +159,10 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "ebd30282989be831",
+  "active": "a3d2457e3588cdd1",
   "lastOpenFiles": [
+    "src/content/docs/todo/Number.isFinite.md",
+    "src/content/docs/todo/CORS.md",
     "_tmp_2716_3812a9d64df9ee29c68f2b007fd58018",
     "src/content/docs/todo/Request header.md",
     "src/content/docs/todo/CORS-safelisted request header.md",
@@ -196,7 +190,6 @@
     "src/content/docs/todo/canvas 绘制图像会跨域吗.md",
     "src/content/docs/todo/Numbers and dates  数字和日期.md",
     "src/content/docs/todo/BFC.md",
-    "src/content/docs/todo/220817-WSL-的基本命令.md",
     "dist/pages/docs/_topic_/_---slug_.astro.mjs",
     "dist/pages/docs/_topic_",
     "dist/pages/collections/_---slug_.astro.mjs",
@@ -206,7 +199,6 @@
     "dist/pages/tags",
     "dist/pages/collections",
     "dist/pages/categories",
-    "dist/pages",
     "dist/_astro/1694772402679.9ed56933_Zx9Lus.webp",
     "dist/_astro/20230915030107.457fc905_Z2sGf8r.webp",
     "dist/_astro/me.e7d1f612_ZqX6Gd.webp",
