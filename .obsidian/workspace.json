@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a7756853fffd8362",
+        "id": "6544f69456339c44",
         "type": "tabs",
         "children": [
           {
-            "id": "e596713fc9e66e94",
+            "id": "acf208ac6a6356c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/todo/CSS 正方形变圆形.md",
+                "file": "src/content/docs/todo/CORS.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "v",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,8 +65,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/todo/CSS 正方形变圆形.md",
+                "file": "src/content/docs/todo/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/docs/todo/CSS 正方形变圆形.md",
+                "file": "src/content/docs/todo/CORS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/todo/CSS 正方形变圆形.md"
+                "file": "src/content/docs/todo/CORS.md"
               }
             }
           }
@@ -152,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 343.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,8 +167,29 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "e596713fc9e66e94",
+  "active": "ebd30282989be831",
   "lastOpenFiles": [
+    "_tmp_2716_3812a9d64df9ee29c68f2b007fd58018",
+    "src/content/docs/todo/Request header.md",
+    "src/content/docs/todo/CORS-safelisted request header.md",
+    "src/content/docs/todo/imag e.png",
+    "src/content/docs/todo/image.png",
+    "src/content/template/参考.md",
+    "src/content/docs/todo/创建对象的方法.md",
+    "src/content/docs/todo/220817-git-远程仓库回退的两种方式.md",
+    "src/content/docs/todo/= =和= = =的区别.md",
+    "src/content/docs/todo/Polyfill 和转译器.md",
+    "src/content/docs/javascript/JavaScript学习路线.md",
+    "src/content/docs/todo/git.md",
+    "src/content/docs/git/git基础使用.md",
+    "src/content/docs/todo/Git 开发流程和技巧.md",
+    "src/content/docs/css/100vh 在 Chrome Mobile 中显示不正确.md",
+    "src/content/docs/linux/arch linux笔记.md",
+    "src/content/docs/linux/WSL.md",
+    "src/content/docs/npm/pnpm.md",
+    "src/content/docs/todo/箭头函数.md",
+    "src/content/docs/todo/函数.md",
+    "src/content/docs/todo/CSS 正方形变圆形.md",
     "src/content/docs/todo/nextTick().md",
     "src/content/docs/golang/Golang学习路线.md",
     "src/content/docs/todo/new 运算符.md",
@@ -176,14 +197,6 @@
     "src/content/docs/todo/Numbers and dates  数字和日期.md",
     "src/content/docs/todo/BFC.md",
     "src/content/docs/todo/220817-WSL-的基本命令.md",
-    "src/content/docs/todo/使用字体而不是图片.md",
-    "src/content/docs/todo/回流和重绘.md",
-    "src/content/docs/todo/isFinite().md",
-    "Number.isFinite.md",
-    "src/content/docs/todo/arr.sort.md",
-    "src/content/docs/todo/CSS 正方形变圆形.md",
-    "src/content/docs/todo/transform.md",
-    "src/content/template/refrence.md",
     "dist/pages/docs/_topic_/_---slug_.astro.mjs",
     "dist/pages/docs/_topic_",
     "dist/pages/collections/_---slug_.astro.mjs",
@@ -202,19 +215,6 @@
     "dist/_astro/me.e7d1f612.jpg",
     "dist/_astro/cover.654e8b1a.jpg",
     "dist/_astro/1660789848-eba39d34fa598cc9de190df12da0b439.acfd845e.png",
-    "dist/_astro/1694772402679.9ed56933.png",
-    "dist/_astro/1660789848-ef3c8435b2e201e808fc1f143a262e16.b0be007f.png",
-    "src/content/docs/todo/spread语法.md",
-    "src/content/docs/todo/OPTIONS 请求方法.md",
-    "src/content/docs/todo/Managing memory 管理内存.md",
-    "src/content/docs/todo/预加载 CSS.md",
-    "src/content/docs/todo/diff 算法的 patch flag.md",
-    "src/content/docs/todo/前端性能优化.md",
-    "src/content/docs/todo/typeof.md",
-    "src/content/docs/todo/indexedDB.md",
-    "src/content/docs/todo/使用 async、defer 避免阻塞.md",
-    "src/content/docs/todo/Vue生命周期.md",
-    "src/content/docs/todo/CDN 缓存失效.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",

@@ -7,6 +7,6 @@ categories:
 tags:
   - default
 featured: false
-draft: true
+draft: false
 ---
 [[Git 开发流程和技巧]]

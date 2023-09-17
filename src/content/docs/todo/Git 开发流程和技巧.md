@@ -17,4 +17,4 @@ draft: true
 
 ---
 
-[[Git]]
+[[git]]
