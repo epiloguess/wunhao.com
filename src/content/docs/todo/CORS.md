@@ -10,7 +10,7 @@ featured: false
 draft: true
 ---
 
-### CORS
+> 当响应的是[附带身份凭证的请求](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS#%E9%99%84%E5%B8%A6%E8%BA%AB%E4%BB%BD%E5%87%AD%E8%AF%81%E7%9A%84%E8%AF%B7%E6%B1%82)时，服务端**必须**明确  `Access-Control-Allow-Origin`  的值，而不能使用通配符“`*`”。
 
 > `Access-Control-Max-Age`  给出了在不发送另一个预检请求的情况下可以缓存对预检请求的响应的时间（以秒为单位）的值。默认值为 5 秒。
 

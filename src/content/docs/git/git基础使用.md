@@ -7,8 +7,9 @@ categories:
 tags:
   - default
 featured: false
-draft: false
+draft: true
 ---
+
 ```shell
 git config user.name
 
@@ -98,4 +99,4 @@ git pull
 
 ---
 
-[git](../todo/git.md)
+[git](../Todo/git.md)

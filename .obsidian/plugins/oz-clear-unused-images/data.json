@@ -1,0 +1,7 @@
+{
+  "deleteOption": "system-trash",
+  "logsModal": true,
+  "excludedFolders": "public,src/assets,dist",
+  "ribbonIcon": false,
+  "excludeSubfolders": false
+}

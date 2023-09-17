@@ -9,7 +9,7 @@ export async function getStaticPaths() {
   );
 
   const paths = allposts.map((post) => {
-    const [topic, ...slug] = post.slug.split("/");
+    const [topic, ...slug] = post.id.split("/");
     return {
       params: { topic, slug: slug.join("/") || undefined },
       props: post,

@@ -7,8 +7,9 @@ categories:
 tags:
   - default
 featured: false
-draft: false
+draft: true
 ---
+
 > Spread 语法内部使用了迭代器来收集元素，与  `for..of`  的方式相同。
 
 ---

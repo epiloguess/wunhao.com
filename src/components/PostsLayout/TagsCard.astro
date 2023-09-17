@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import Card from "./Card.astro";
+import Card from "../Card.astro";
 const allPosts = await getCollection(
   "docs",
   (post) => post.data.draft == false

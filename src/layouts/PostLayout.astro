@@ -3,8 +3,8 @@ const { post } = Astro.props;
 import Layout from "./SideBarLayout.astro";
 
 import AboutMe from "../components/index/AboutMe.astro";
-import PostDetails from "../components/PostDetails.astro";
-import PostDetailsSmall from "../components/PostDetailsSmall.astro";
+import PostDetails from "../components/PostLayout/PostDetails.astro";
+import PostDetailsSmall from "../components/PostLayout/PostDetailsSmall.astro";
 ---
 
 <Layout title={post.data.title}>
@@ -14,7 +14,7 @@ import PostDetailsSmall from "../components/PostDetailsSmall.astro";
     </section>
 
     <section
-      class="prose prose-blockquote:border-pink-500 prose-tr:border-b prose-tr:border-gray-300 prose-headings:font-bold"
+      class="prose prose-code:before:content-[''] prose-code:after:content-[''] prose-code:text-sky-600 prose-blockquote:border-pink-500 prose-tr:border-b prose-tr:border-gray-300 prose-headings:font-bold"
     >
       <slot />
     </section>

@@ -7,9 +7,9 @@ const allPosts = await getCollection(
 );
 
 import Layout from "../layouts/SideBarLayout.astro";
-import CategoriesCard from "../components/CategoriesCard.astro";
-import TagsCard from "../components/TagsCard.astro";
-import BlogPost from "../components/BlogPostByYears.astro";
+import CategoriesCard from "../components/PostsLayout/CategoriesCard.astro";
+import TagsCard from "../components/PostsLayout/TagsCard.astro";
+import BlogPost from "../components/PostsLayout/BlogPostByYears.astro";
 
 const { title, posts } = Astro.props;
 ---

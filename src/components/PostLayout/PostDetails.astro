@@ -1,9 +1,9 @@
 ---
-import Layout from "./Card.astro";
+import Layout from "../Card.astro";
 const { post } = Astro.props;
-const NameOfFatherFolder = post.slug
+const NameOfFatherFolder = post.id
   .split("/")
-  .slice(0, post.slug.split("/").length - 1)
+  .slice(0, post.id.split("/").length - 1)
   .join("/");
 ---
 

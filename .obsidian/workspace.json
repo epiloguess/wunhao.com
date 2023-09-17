@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b330b1543a0927ff",
+        "id": "38de7b5eb1c4ca57",
         "type": "tabs",
         "children": [
           {
-            "id": "a3d2457e3588cdd1",
+            "id": "6a592617bc712ce0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "src/content/docs/Todo/nextTick().md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "src/content/docs/Todo/nextTick().md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "src/content/docs/Todo/nextTick().md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,16 +141,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "src/content/docs/Todo/nextTick().md"
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,54 +166,54 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "a3d2457e3588cdd1",
+  "active": "6a592617bc712ce0",
   "lastOpenFiles": [
-    "src/content/docs/todo/Number.isFinite.md",
-    "src/content/docs/todo/CORS.md",
-    "_tmp_2716_3812a9d64df9ee29c68f2b007fd58018",
-    "src/content/docs/todo/Request header.md",
-    "src/content/docs/todo/CORS-safelisted request header.md",
-    "src/content/docs/todo/imag e.png",
-    "src/content/docs/todo/image.png",
+    "src/content/docs/Todo/Astro 建站小记.md",
+    "src/content/docs/Todo/mysql基础命令.md",
+    "dist/index.html",
+    "dist/_astro/hoisted.a23147bd.js",
+    "dist/chunks/预加载 CSS_e2927355.mjs",
+    "dist/chunks/预加载 CSS_c443ff39.mjs",
+    "dist/chunks/预加载 CSS_5c5a0e2a.mjs",
+    "dist/chunks/防抖和节流_b17c1ba8.mjs",
+    "dist/chunks/防抖和节流_a56dad33.mjs",
+    "dist/chunks/防抖和节流_9da3de23.mjs",
+    "dist/chunks/闭包_4c35ad7e.mjs",
+    "dist/chunks/闭包_47bbbcd3.mjs",
+    "dist/_astro/1660714348-109d793f5bdd26e2fa651f8a86d957ef.caf2d9d6.png",
+    "dist/_astro/1660714257-5f98d4ab2beffd6f44b99f7808d63f4a.94f0c1cd.png",
+    "dist/_astro/me.e7d1f612.jpg",
+    "dist/_astro/cover.654e8b1a.jpg",
+    "dist/_astro/20230915030107.457fc905.png",
+    "dist/_astro/1694772402679.9ed56933.png",
+    "dist/_astro/1660789848-ef3c8435b2e201e808fc1f143a262e16.b0be007f.png",
+    "dist/_astro/1660789848-eba39d34fa598cc9de190df12da0b439.acfd845e.png",
+    "dist/_astro/1660789848-61f2114c478d07f6c0bccbf9bc28058c.1bf3722b.png",
+    "dist/_astro/1660789848-32a1d4e5ca4f9c261c677cd184c4b80c.d03ccda7.png",
+    "src/content/docs/Todo/arr.sort.md",
+    "src/content/docs/Todo/arr.reverse.md",
+    "src/content/docs/NPM/pnpm.md",
+    "src/content/docs/Todo/函数.md",
+    "src/content/docs/面试/FE_TEST_QA.md",
+    "src/content/docs/JavaScript/JavaScript 学习路线.md",
+    "src/content/docs/Todo/事件冒泡和事件捕获.md",
+    "src/content/docs/Todo/CORS.md",
+    "src/content/docs/Todo/CORS-safelisted request header.md",
+    "src/content/docs/Todo/简单请求.md",
+    "src/content/docs/Todo/Number.isFinite.md",
+    "src/content/docs/Todo/Request header.md",
     "src/content/template/参考.md",
-    "src/content/docs/todo/创建对象的方法.md",
-    "src/content/docs/todo/220817-git-远程仓库回退的两种方式.md",
-    "src/content/docs/todo/= =和= = =的区别.md",
-    "src/content/docs/todo/Polyfill 和转译器.md",
-    "src/content/docs/javascript/JavaScript学习路线.md",
-    "src/content/docs/todo/git.md",
+    "src/content/docs/Todo/创建对象的方法.md",
+    "src/content/docs/Todo/220817-git-远程仓库回退的两种方式.md",
+    "src/content/docs/Todo/= =和= = =的区别.md",
+    "src/content/docs/Todo/Polyfill 和转译器.md",
+    "src/content/docs/Todo/git.md",
     "src/content/docs/git/git基础使用.md",
-    "src/content/docs/todo/Git 开发流程和技巧.md",
+    "src/content/docs/Todo/Git 开发流程和技巧.md",
     "src/content/docs/css/100vh 在 Chrome Mobile 中显示不正确.md",
     "src/content/docs/linux/arch linux笔记.md",
     "src/content/docs/linux/WSL.md",
-    "src/content/docs/npm/pnpm.md",
-    "src/content/docs/todo/箭头函数.md",
-    "src/content/docs/todo/函数.md",
-    "src/content/docs/todo/CSS 正方形变圆形.md",
-    "src/content/docs/todo/nextTick().md",
-    "src/content/docs/golang/Golang学习路线.md",
-    "src/content/docs/todo/new 运算符.md",
-    "src/content/docs/todo/canvas 绘制图像会跨域吗.md",
-    "src/content/docs/todo/Numbers and dates  数字和日期.md",
-    "src/content/docs/todo/BFC.md",
-    "dist/pages/docs/_topic_/_---slug_.astro.mjs",
-    "dist/pages/docs/_topic_",
-    "dist/pages/collections/_---slug_.astro.mjs",
-    "dist/pages/tags/_tag_.astro.mjs",
-    "dist/pages/categories/_category_.astro.mjs",
-    "dist/pages/docs",
-    "dist/pages/tags",
-    "dist/pages/collections",
-    "dist/pages/categories",
-    "dist/_astro/1694772402679.9ed56933_Zx9Lus.webp",
-    "dist/_astro/20230915030107.457fc905_Z2sGf8r.webp",
-    "dist/_astro/me.e7d1f612_ZqX6Gd.webp",
-    "dist/_astro/cover.654e8b1a_iizWq.webp",
-    "dist/_astro/20230915030107.457fc905.png",
-    "dist/_astro/me.e7d1f612.jpg",
-    "dist/_astro/cover.654e8b1a.jpg",
-    "dist/_astro/1660789848-eba39d34fa598cc9de190df12da0b439.acfd845e.png",
+    "src/content/docs/Todo/箭头函数.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",

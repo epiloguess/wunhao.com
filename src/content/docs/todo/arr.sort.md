@@ -7,18 +7,18 @@ categories:
 tags:
   - 数组方法
 featured: false
-draft: false
+draft: true
 ---
 
 ### 示例
 
 ```js
-let arr = [ 1, 2, 15 ];
+let arr = [1, 2, 15];
 
 // 该方法重新排列 arr 的内容
 arr.sort();
 
-alert( arr );  // 1, 15, 2
+alert(arr); // 1, 15, 2
 ```
 
 ### 返回值
@@ -38,16 +38,19 @@ alert( arr );  // 1, 15, 2
 > 实际上，比较函数只需要返回一个正数表示“大于”，一个负数表示“小于”。
 
 ```js
-arr.sort( (a, b) => a - b );
+arr.sort((a, b) => a - b);
 ```
 
-| `compareFn(a, b)`  返回值 | 排序顺序                       |
-| ------------------------- | ------------------------------ |
-| > 0                       | `a`  在  `b`  后，如  `[b, a]` |
-| < 0                       | `a`  在  `b`  前，如  `[a, b]` |
-| === 0                     | 保持  `a`  和  `b`  原来的顺序 |
+`compareFn(a, b)`
 
-可以通过 `return b -a` 实现 [[arr.reverse]]
+
+| 返回值 | 排序顺序                       |
+| ------ | ------------------------------ |
+| > 0    | `a`  在  `b`  后，如  `[b, a]` |
+| < 0    | `a`  在  `b`  前，如  `[a, b]` |
+| === 0  | 保持  `a`  和  `b`  原来的顺序 |
+
+可以通过 `return b -a` 实现 [arr.reverse](arr.reverse.md)
 
 ---
 

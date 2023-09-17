@@ -1,9 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../../layouts/SideBarLayout.astro";
-import CategoriesCard from "../../components/CategoriesCard.astro";
-import TagsCard from "../../components/TagsCard.astro";
-import BlogPost from "../../components/BlogPostByYears.astro";
+import CategoriesCard from "../../components/PostsLayout/CategoriesCard.astro";
+import TagsCard from "../../components/PostsLayout/TagsCard.astro";
+import BlogPost from "../../components/PostsLayout/BlogPostByYears.astro";
 
 export async function getStaticPaths() {
   const allPosts = await getCollection(
@@ -11,11 +11,11 @@ export async function getStaticPaths() {
     (post) => post.data.draft == false
   );
   const paths = allPosts.map((post) => {
-    const postLength = post.slug.split("/").length;
-    const postPath = post.slug.split("/");
+    const postLength = post.id.split("/").length;
+    const postPath = post.id.split("/");
     postPath.pop();
-    const collection = post.slug.split("/")[postLength - 2];
-    const postPathWithoutSelf = post.slug
+    const collection = post.id.split("/")[postLength - 2];
+    const postPathWithoutSelf = post.id
       .split("/")
       .slice(0, postLength - 1)
       .join("/");
@@ -23,7 +23,7 @@ export async function getStaticPaths() {
     const postAtSameFolder = allPosts.filter(
       (post) =>
         post.id.startsWith(postPathWithoutSelf) &&
-        (post.slug.split("/").length = postLength)
+        (post.id.split("/").length = postLength)
     );
     return {
       params: { slug: postPath.join("/") || undefined },
@@ -38,7 +38,7 @@ const { posts, collection } = Astro.props;
 
 <Layout title={collection}>
   <BlogPost slot="article-content" posts={posts} />
-  <section slot="sidebar-content" class="flex flex-col gap-8">
+  <section slot="sidebar-content" class="flex flex-col gap-4">
     <CategoriesCard posts={posts} />
     <TagsCard posts={posts} />
   </section>
