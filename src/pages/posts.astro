@@ -6,16 +6,7 @@ const allPosts = await getCollection(
   (post) => post.data.draft == false
 );
 
-import Layout from "../layouts/SideBarLayout.astro";
-import CategoriesCard from "../components/CategoriesCard.astro";
-import TagsCard from "../components/TagsCard.astro";
-import BlogPost from "../components/BlogPostByYears.astro";
+import Layout from "../layouts/PostsLayout.astro";
 ---
 
-<Layout title="Writing">
-  <BlogPost slot="article-content" posts={allPosts} />
-  <section slot="sidebar-content" class="flex flex-col gap-4">
-    <CategoriesCard posts={allPosts} />
-    <TagsCard posts={allPosts} />
-  </section>
-</Layout>
+<Layout title="Writing" posts={allPosts} />

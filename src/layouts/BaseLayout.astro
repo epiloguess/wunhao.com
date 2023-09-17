@@ -2,7 +2,7 @@
 interface Props {
   title: string;
 }
-
+import { ViewTransitions } from "astro:transitions";
 const { title } = Astro.props;
 import Nav from "../components/BaseLayout/Navigation.astro";
 import NavAtFooter from "../components/BaseLayout/NavAtFooter.astro";
@@ -18,6 +18,7 @@ import Footer from "../components/BaseLayout/Footer.astro";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+    <ViewTransitions />
   </head>
   <body
     class="flex flex-col content-end h-[100dvh] m-auto max-w-screen-lg bg-[#eeeeee]"
@@ -30,6 +31,5 @@ import Footer from "../components/BaseLayout/Footer.astro";
       <Footer />
     </section>
     <NavAtFooter />
-  </body>
+  </body><style is:global></style>
 </html>
-<style is:global></style>

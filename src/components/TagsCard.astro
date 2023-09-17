@@ -8,7 +8,7 @@ const allPosts = await getCollection(
 
 const { posts } = Astro.props;
 
-const alltags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+const alltags = [...new Set(posts.map((post) => post.data.tags).flat())];
 ---
 
 <Card title="Tags">

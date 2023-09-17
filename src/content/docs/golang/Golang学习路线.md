@@ -7,7 +7,7 @@ categories:
 tags:
   - default
 featured: false
-draft: true
+draft: false
 ---
 # Golang
 ## Linux编程环境

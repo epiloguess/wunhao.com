@@ -9,11 +9,12 @@ tags:
 featured: false
 draft: true
 ---
-### transform
-
-[MDN transform](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)
 
 > CSS **`transform`**  属性允许你旋转，缩放，倾斜或平移给定元素。这是通过修改 CSS 视觉格式化模型的坐标空间来实现的。
+
+### 参考资料
+
+- [transform - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform)
 
 ---
 

@@ -1,13 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import Layout from "../../layouts/SideBarLayout.astro";
-import CategoriesCard from "../../components/CategoriesCard.astro";
-import TagsCard from "../../components/TagsCard.astro";
-import BlogPost from "../../components/BlogPostByYears.astro";
-const allPosts = await getCollection(
-  "docs",
-  (post) => post.data.draft == false
-);
+import Layout from "../../layouts/PostsLayout.astro";
 
 export async function getStaticPaths() {
   const allPosts = await getCollection(
@@ -32,12 +25,4 @@ const { tag } = Astro.params;
 const { posts } = Astro.props;
 ---
 
-<Layout title={tag}>
-  <div slot="article-content">
-    <BlogPost posts={posts} />
-  </div>
-  <div class="flex flex-col gap-4" slot="sidebar-content">
-    <CategoriesCard posts={allPosts} />
-    <TagsCard posts={allPosts} />
-  </div>
-</Layout>
+<Layout title={tag} posts={posts} />

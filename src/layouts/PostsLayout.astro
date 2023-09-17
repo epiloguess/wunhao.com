@@ -1,0 +1,23 @@
+---
+import { getCollection } from "astro:content";
+
+const allPosts = await getCollection(
+  "docs",
+  (post) => post.data.draft == false
+);
+
+import Layout from "../layouts/SideBarLayout.astro";
+import CategoriesCard from "../components/CategoriesCard.astro";
+import TagsCard from "../components/TagsCard.astro";
+import BlogPost from "../components/BlogPostByYears.astro";
+
+const { title, posts } = Astro.props;
+---
+
+<Layout title={title}>
+  <BlogPost slot="article-content" posts={posts} />
+  <section slot="sidebar-content" class="flex flex-col gap-4">
+    <CategoriesCard posts={allPosts} />
+    <TagsCard posts={allPosts} />
+  </section>
+</Layout>

@@ -1,14 +1,17 @@
 ---
 title: arr.sort
-pubDate: 2023-09-15
+pubDate: 2023-09-16
 description: ""
 categories:
-  - default
+  - JavaScript
 tags:
-  - default
+  - 数组方法
 featured: false
-draft: true
+draft: false
 ---
+
+### 示例
+
 ```js
 let arr = [ 1, 2, 15 ];
 
@@ -18,9 +21,15 @@ arr.sort();
 alert( arr );  // 1, 15, 2
 ```
 
+### 返回值
+
+返回排序后的数组，会改变原数组
+
 > 默认排序是将元素转换为字符串，然后按照它们的 UTF-16 码元值升序排序。
 
 > 如果想要不改变原数组的排序方法，可以使用  [`toSorted()`](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/toSorted)。
+
+### 参数
 
 可以传入一个比较函数
 

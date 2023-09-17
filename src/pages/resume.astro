@@ -9,10 +9,7 @@ const { Content } = await page.render();
 ---
 
 <Layout title="Resume">
-  <section
-    slot="article-content"
-    class="prose-base prose-a:underline prose-a:underline-offset-4 prose-headings:italic"
-  >
+  <section slot="article-content" class="prose prose-headings:italic">
     <Content />
   </section>
   <section slot="sidebar-content" class="flex flex-col gap-8">
