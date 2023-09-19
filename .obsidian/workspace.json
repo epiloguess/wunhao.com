@@ -11,12 +11,8 @@
             "id": "c2597715755db7f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/docs/Todo/Astro 建站小记.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/Todo/Astro 建站小记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/docs/Todo/Astro 建站小记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/content/docs/Todo/Astro 建站小记.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -166,44 +158,45 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "c2597715755db7f6",
+  "active": "ebd30282989be831",
   "lastOpenFiles": [
-    "README.md",
-    "src/content/docs/linux/arch linux安装笔记.md",
-    "src/content/docs/Todo/WSL-的基本命令.md",
-    "src/content/docs/Todo/Astro 建站小记.md",
-    "src/content/docs/Todo/Object.getOwnPropertyNames和Object.keys.md",
-    "src/content/docs/Todo/字符串过滤前后空格，如何实现.md",
-    "src/content/docs/Todo/回流和重绘.md",
-    "src/content/docs/Todo/mouseover-mouseoutout-mouseenter-mouseleave.md",
-    "src/content/docs/Todo/箭头函数.md",
-    "src/content/docs/Todo/localStorage 和 sessionStorage.md",
-    "src/content/docs/Todo/原型.md",
-    "src/content/docs/Todo/transform.md",
-    "src/content/docs/Todo/Fundamental objects 基本对象.md",
-    "src/content/docs/Todo/Function properties 功能属性.md",
-    "src/content/docs/Todo/作用域和作用域链.md",
-    "src/content/docs/Todo/Array.isArray()和 instance of Array.md",
-    "src/content/docs/Todo/回调.md",
-    "src/content/docs/Todo/Base64.md",
-    "src/content/meta/NavAtFooter.json",
-    "src/content/meta",
-    "src/content/blog/NavAtFooter.json",
-    "src/content/docs/Todo/undefined.md",
-    "src/content/docs/Todo/Javascript运算符.md",
-    "src/content/docs/Todo/new 运算符.md",
-    "src/content/docs/Todo/CSS postion属性.md",
-    "src/content/docs/Todo/translate和position.md",
-    "src/content/docs/Todo/GET和POST的区别.md",
-    "src/content/docs/Todo/link标签.md",
-    "src/content/docs/Todo/顶部滚动进度条.md",
-    "dist/index.html",
-    "dist/_astro/hoisted.a23147bd.js",
-    "dist/chunks/预加载 CSS_e2927355.mjs",
-    "dist/chunks/预加载 CSS_c443ff39.mjs",
-    "dist/chunks/预加载 CSS_5c5a0e2a.mjs",
-    "dist/chunks/防抖和节流_b17c1ba8.mjs",
-    "dist/chunks/防抖和节流_a56dad33.mjs",
+    "src/content/docs/面试/超出宽度的文本替换为省略号.md",
+    "src/content/docs/windows",
+    "src/content/docs/面试/powershell使用代理.md",
+    "src/content/docs/面试/git基础使用.md",
+    "src/content/docs/面试/FE_TEST_QA.md",
+    "src/content/docs/面试/arch linux安装笔记.md",
+    "src/content/docs/面试/100vh 在 Chrome Mobile 中显示不正确.md",
+    "src/content/docs/面试/作用域和作用域链.md",
+    "src/content/docs/面试/作用域和执行上下文.md",
+    "src/content/docs/面试/作用域.md",
+    "src/content/docs/面试/字符串原始值和字符串对象.md",
+    "src/content/docs/面试/字符串过滤前后空格，如何实现.md",
+    "src/content/docs/面试/重绘.md",
+    "src/content/docs/面试/执行上下文.md",
+    "src/content/docs/面试/正则表达式.md",
+    "src/content/docs/面试/原型和原型链.md",
+    "src/content/docs/面试/原型.md",
+    "src/content/docs/面试/元素拖拽.md",
+    "src/content/docs/面试/元素居中.md",
+    "src/content/docs/面试/异步函数.md",
+    "src/content/docs/面试/压缩图片.md",
+    "src/content/docs/面试/压缩 CSS.md",
+    "src/content/docs/面试/尾递归.md",
+    "src/content/docs/面试/伪类和伪元素.md",
+    "src/content/docs/面试/图片懒加载.md",
+    "src/content/docs/面试/水平居中元素.md",
+    "src/content/docs/面试/数组去重.md",
+    "src/content/docs/git",
+    "src/content/docs/css",
+    "src/content/docs/todo",
+    "src/content/docs/react",
+    "src/content/docs/npm",
+    "src/content/docs/linux",
+    "src/content/docs/javascript",
+    "src/content/docs/golang",
+    "src/content/assets/20230915030107.png",
+    "src/content/docs/css/assets",
     "dist/_astro/1660714348-109d793f5bdd26e2fa651f8a86d957ef.caf2d9d6.png",
     "dist/_astro/1660714257-5f98d4ab2beffd6f44b99f7808d63f4a.94f0c1cd.png",
     "dist/_astro/me.e7d1f612.jpg",
@@ -213,7 +206,6 @@
     "dist/_astro/1660789848-ef3c8435b2e201e808fc1f143a262e16.b0be007f.png",
     "dist/_astro/1660789848-eba39d34fa598cc9de190df12da0b439.acfd845e.png",
     "dist/_astro/1660789848-61f2114c478d07f6c0bccbf9bc28058c.1bf3722b.png",
-    "dist/_astro/1660789848-32a1d4e5ca4f9c261c677cd184c4b80c.d03ccda7.png",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",

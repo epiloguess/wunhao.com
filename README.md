@@ -7,4 +7,4 @@
 - 内部链接跳转
 - 图片正常显示
 
-具体请参考 [Astro 建站小记](src/content/docs/todo/Astro%20建站小记.md)
+具体请参考 [Astro 建站小记](src/content/docs/面试/Astro%20建站小记.md)
