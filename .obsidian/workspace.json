@@ -11,8 +11,12 @@
             "id": "c2597715755db7f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ],
@@ -160,6 +168,7 @@
   },
   "active": "ebd30282989be831",
   "lastOpenFiles": [
+    "src/content/docs/Todo",
     "src/content/docs/面试/超出宽度的文本替换为省略号.md",
     "src/content/docs/windows",
     "src/content/docs/面试/powershell使用代理.md",
@@ -186,7 +195,6 @@
     "src/content/docs/面试/伪类和伪元素.md",
     "src/content/docs/面试/图片懒加载.md",
     "src/content/docs/面试/水平居中元素.md",
-    "src/content/docs/面试/数组去重.md",
     "src/content/docs/git",
     "src/content/docs/css",
     "src/content/docs/todo",
