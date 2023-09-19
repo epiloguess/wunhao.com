@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "38de7b5eb1c4ca57",
+        "id": "b636ddf7f1c75d82",
         "type": "tabs",
         "children": [
           {
-            "id": "6a592617bc712ce0",
+            "id": "fbe16cc1f9935984",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/Todo/nextTick().md",
+                "file": "src/content/docs/Todo/回流和重绘.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "116764536326177d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/content/docs/Todo/WSL-的基本命令.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/Todo/nextTick().md",
+                "file": "src/content/docs/Todo/WSL-的基本命令.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,8 +119,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "2fa4fb5359e82000",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/docs/Todo/nextTick().md",
+                "file": "src/content/docs/Todo/WSL-的基本命令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/Todo/nextTick().md"
+                "file": "src/content/docs/Todo/WSL-的基本命令.md"
               }
             }
           }
@@ -163,13 +175,38 @@
       "workspaces:管理工作区布局": false,
       "audio-recorder:开始/结束录音": false,
       "daily-notes:打开/创建今天的日记": false,
-      "smart-random-note:Open Random Note from Search": false
+      "smart-random-note:Open Random Note from Search": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6a592617bc712ce0",
+  "active": "116764536326177d",
   "lastOpenFiles": [
+    "src/content/docs/Todo/undefined.md",
+    "src/content/docs/Todo/Javascript运算符.md",
+    "src/content/docs/Todo/new 运算符.md",
+    "src/content/docs/Todo/CSS postion属性.md",
+    "src/content/docs/Todo/回流和重绘.md",
+    "src/content/docs/Todo/translate和position.md",
     "src/content/docs/Todo/Astro 建站小记.md",
-    "src/content/docs/Todo/mysql基础命令.md",
+    "src/content/docs/Todo/GET和POST的区别.md",
+    "src/content/docs/Todo/link标签.md",
+    "src/content/docs/Todo/顶部滚动进度条.md",
+    "src/content/docs/Todo/= =和= = =的区别.md",
+    "src/content/docs/Todo/函数.md",
+    "src/content/docs/Todo/Object.is()和 = = =.md",
+    "src/content/docs/Todo/严格模式.md",
+    "src/content/docs/Todo/isFinite().md",
+    "src/content/docs/Todo/Number.isFinite.md",
+    "src/content/docs/Todo/创建对象的方法.md",
+    "src/content/docs/Todo/typeof 和 instanceof.md",
+    "src/content/docs/Todo/Function properties 功能属性.md",
+    "src/content/docs/Todo/220817-git-远程仓库回退的两种方式.md",
+    "src/content/docs/Todo/垃圾回收.md",
+    "src/content/docs/Todo/flex布局.md",
+    "src/content/docs/Todo/CSS选择器优先级.md",
+    "src/content/docs/Todo/正则表达式.md",
+    "src/content/docs/Todo/Structured data 结构化数据.md",
+    "src/content/docs/Todo/Object.md",
     "dist/index.html",
     "dist/_astro/hoisted.a23147bd.js",
     "dist/chunks/预加载 CSS_e2927355.mjs",
@@ -190,30 +227,6 @@
     "dist/_astro/1660789848-eba39d34fa598cc9de190df12da0b439.acfd845e.png",
     "dist/_astro/1660789848-61f2114c478d07f6c0bccbf9bc28058c.1bf3722b.png",
     "dist/_astro/1660789848-32a1d4e5ca4f9c261c677cd184c4b80c.d03ccda7.png",
-    "src/content/docs/Todo/arr.sort.md",
-    "src/content/docs/Todo/arr.reverse.md",
-    "src/content/docs/NPM/pnpm.md",
-    "src/content/docs/Todo/函数.md",
-    "src/content/docs/面试/FE_TEST_QA.md",
-    "src/content/docs/JavaScript/JavaScript 学习路线.md",
-    "src/content/docs/Todo/事件冒泡和事件捕获.md",
-    "src/content/docs/Todo/CORS.md",
-    "src/content/docs/Todo/CORS-safelisted request header.md",
-    "src/content/docs/Todo/简单请求.md",
-    "src/content/docs/Todo/Number.isFinite.md",
-    "src/content/docs/Todo/Request header.md",
-    "src/content/template/参考.md",
-    "src/content/docs/Todo/创建对象的方法.md",
-    "src/content/docs/Todo/220817-git-远程仓库回退的两种方式.md",
-    "src/content/docs/Todo/= =和= = =的区别.md",
-    "src/content/docs/Todo/Polyfill 和转译器.md",
-    "src/content/docs/Todo/git.md",
-    "src/content/docs/git/git基础使用.md",
-    "src/content/docs/Todo/Git 开发流程和技巧.md",
-    "src/content/docs/css/100vh 在 Chrome Mobile 中显示不正确.md",
-    "src/content/docs/linux/arch linux笔记.md",
-    "src/content/docs/linux/WSL.md",
-    "src/content/docs/Todo/箭头函数.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",
