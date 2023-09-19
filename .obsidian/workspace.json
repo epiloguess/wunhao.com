@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "src/content/docs/test/回调地狱.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "src/content/docs/test/回调地狱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "src/content/docs/test/回调地狱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "src/content/docs/test/回调地狱.md"
               }
             }
           }
@@ -166,15 +166,20 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "ebd30282989be831",
+  "active": "c2597715755db7f6",
   "lastOpenFiles": [
+    "src/content/docs/demo/arch linux安装笔记.md",
+    "src/content/docs/面试/回调.md",
+    "src/content/docs/demo",
+    "src/content/docs/test",
+    "README.md",
+    "src/content/docs/css",
     "src/content/docs/Todo",
     "src/content/docs/面试/超出宽度的文本替换为省略号.md",
     "src/content/docs/windows",
     "src/content/docs/面试/powershell使用代理.md",
     "src/content/docs/面试/git基础使用.md",
     "src/content/docs/面试/FE_TEST_QA.md",
-    "src/content/docs/面试/arch linux安装笔记.md",
     "src/content/docs/面试/100vh 在 Chrome Mobile 中显示不正确.md",
     "src/content/docs/面试/作用域和作用域链.md",
     "src/content/docs/面试/作用域和执行上下文.md",
@@ -194,17 +199,12 @@
     "src/content/docs/面试/尾递归.md",
     "src/content/docs/面试/伪类和伪元素.md",
     "src/content/docs/面试/图片懒加载.md",
-    "src/content/docs/面试/水平居中元素.md",
     "src/content/docs/git",
     "src/content/docs/css",
     "src/content/docs/todo",
     "src/content/docs/react",
     "src/content/docs/npm",
-    "src/content/docs/linux",
-    "src/content/docs/javascript",
-    "src/content/docs/golang",
     "src/content/assets/20230915030107.png",
-    "src/content/docs/css/assets",
     "dist/_astro/1660714348-109d793f5bdd26e2fa651f8a86d957ef.caf2d9d6.png",
     "dist/_astro/1660714257-5f98d4ab2beffd6f44b99f7808d63f4a.94f0c1cd.png",
     "dist/_astro/me.e7d1f612.jpg",
