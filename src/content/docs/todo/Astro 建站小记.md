@@ -7,16 +7,16 @@ categories:
 tags:
   - default
 featured: false
-draft: true
+draft: false
 ---
 
 ### 目录结构
 
-#### `src/content/assets`
+`src/content/assets`
 
 用于统一存放博客推文所需的资源，例如图片等等
 
-##### 注意
+**注意**
 
 要和 `public` 和 `src/assets` 目录区分开
 
@@ -24,15 +24,15 @@ draft: true
 
 后者是用于项目有关的，在 `.astro` 文件中导入的，需要经过处理的文件
 
-#### `src/content/docs`
+`src/content/docs`
 
 用于存放所有博客推文
 
-#### `src/content/blog`
+`src/content/blog`
 
 用于存放与博客本身有关系的文档
 
-#### `src/content/template`
+`src/content/template`
 
 
 ### Obsidian 配置

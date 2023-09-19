@@ -19,9 +19,9 @@ draft: true
 
 [[Object.keys和for...in]]
 
-### 参考资料
+### 参考
 
-[javascript - Object.getOwnPropertyNames vs Object.keys - Stack Overflow](https://stackoverflow.com/questions/22658488/object-getownpropertynames-vs-object-keys)
+- [javascript - Object.getOwnPropertyNames vs Object.keys - Stack Overflow](https://stackoverflow.com/questions/22658488/object-getownpropertynames-vs-object-keys)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: arch linux笔记
+title: Arch linux安装笔记
 pubDate: 2023-09-15
 description: ""
 categories:
@@ -9,6 +9,7 @@ tags:
 featured: false
 draft: true
 ---
+
 #### 安装 archlinux
 
 ```bash
@@ -17,7 +18,7 @@ rfkill
 rfkill unblock all
 ```
 
-#### 调整网络 iwd
+### 调整网络 iwd
 
 ```
 iwctl
@@ -61,9 +62,7 @@ yay -S arandr
 
 `alias`
 
-#### 可选-配置 dwm 
-
-
+#### 可选-配置 dwm
 
 #### 配置网络
 
@@ -82,13 +81,12 @@ sudo systemctl stop iwd
 ##### 启用 NetworkManager
 
 ```bash
-iwd 
+iwd
 sudo systemctl enable --now NetworkManager
 #确保先启动NetworkManager，并进行网络连接 若iwd已经与NetworkManager冲突 则执行完上一步重启一下电脑即可。
 ```
 
-
-#### pacman相关
+#### pacman 相关
 
 ##### 更换 pacman 源
 
@@ -106,8 +104,10 @@ sudo pacman -S yay
 
 #### 常用的工具软件
 
-##### 配置 kde 
+##### 配置 kde
+
 ###### 文件管理器
+
 ```
 sudo pacman -S [dolphin]
 ```
@@ -117,7 +117,6 @@ sudo pacman -S [dolphin]
 ```
 sudo pacman -S wget openssh
 ```
-
 
 ##### vscode
 
@@ -161,12 +160,10 @@ yay -S linuxqq qqmusic-bin
 
 ##### clash 代理
 
-
-
 - [参考 1](https://codeswift.top/posts/clash-linux/#%E5%88%A9%E7%94%A8-export-%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86)
 - [参考 2](https://zhuanlan.zhihu.com/p/396272999)
 
-[clash地址](https://api1.testdns123.xyz/sub?target=clash&url=https%3A%2F%2Fdav201.xyz%2Fmodules%2Fservers%2FUnlimitedSocks%2Fsubscribeios.php%3Fsid%3D13718%26token%3DFsG65z8waLf6&list=false&udp=false)
+[clash 地址](https://api1.testdns123.xyz/sub?target=clash&url=https%3A%2F%2Fdav201.xyz%2Fmodules%2Fservers%2FUnlimitedSocks%2Fsubscribeios.php%3Fsid%3D13718%26token%3DFsG65z8waLf6&list=false&udp=false)
 
 ##### ntfs 挂载
 
@@ -185,11 +182,12 @@ pacman -Si discover
 ```
 
 #### 系统驱动完善
+
 ##### 触摸板
 
 [参考](https://www.jianshu.com/p/c5678ce41ab1)
 
-#### 电源管理tlp
+#### 电源管理 tlp
 
 ```
 pacman -S tlp
@@ -204,6 +202,7 @@ systemctl start tlp.service
 
 yay -S tlpui-git
 ```
+
 #### wine
 
 [参考](https://blog.csdn.net/SHIGUANGTUJING/article/details/89291732)
@@ -218,8 +217,6 @@ pacman -S mariadb
 yay -S mycli
 
 ```
-
-
 
 ---
 

@@ -2,16 +2,15 @@
 interface Props {
   title: string;
 }
-import { ViewTransitions } from "astro:transitions";
+import { ViewTransitions, fade } from "astro:transitions";
 const { title } = Astro.props;
 import Nav from "../components/BaseLayout/Navigation.astro";
 import NavAtFooter from "../components/BaseLayout/NavAtFooter.astro";
 import Footer from "../components/BaseLayout/Footer.astro";
-import { slide } from "astro/transitions";
 ---
 
 <!doctype html>
-<html lang="en" transition:animate={slide({ duration: "0.5s" })}>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
