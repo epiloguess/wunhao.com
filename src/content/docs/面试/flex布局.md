@@ -10,8 +10,7 @@ featured: false
 draft: true
 ---
 
-
-### 参考资料
+### 参考
 
 [Flex 布局教程：语法篇 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 

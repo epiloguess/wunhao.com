@@ -16,7 +16,7 @@ draft: true
 > `Array.isArray()` also rejects objects with `Array.prototype` in its prototype chain but aren't actual arrays, which `instanceof Array` would accept.  
 > `Array.isArray()`  还拒绝其原型链中带有  `Array.prototype`  的对象，但这些对象不是  `instanceof Array`  会接受的实际数组。
 
-### 参考资料
+### 参考
 
 - [Array.isArray() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray)
 - [ECMAScript® 2023 Language Specification](https://tc39.es/ecma262/2023/multipage/abstract-operations.html#sec-isarray)

@@ -10,7 +10,7 @@ featured: false
 draft: true
 ---
 
-### 参考资料
+### 参考
 
 [浅谈 MVVM 架构 - 掘金](https://juejin.cn/post/6950934103227105317)
 

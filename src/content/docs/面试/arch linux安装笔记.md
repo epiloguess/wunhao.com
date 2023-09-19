@@ -7,7 +7,7 @@ categories:
 tags:
   - default
 featured: false
-draft: false
+draft: true
 ---
 
 #### 安装 archlinux

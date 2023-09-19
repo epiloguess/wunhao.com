@@ -64,7 +64,7 @@ draft: true
 
     - 浏览器显示完整的网页内容，用户可以与网页进行交互。
 
-### 参考资料
+### 参考
 
 [How browsers work](https://web.dev/howbrowserswork/#preface)
 

@@ -16,6 +16,6 @@ draft: true
 
 #### 场景
 
-### 参考资料
+### 参考
 
 - [全局 API：常规 | Vue.js](https://cn.vuejs.org/api/general.html#nexttick)

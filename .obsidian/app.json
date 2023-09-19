@@ -17,7 +17,7 @@
     "downscalePercent": 100
   },
   "alwaysUpdateLinks": true,
-  "newFileFolderPath": "src/content/docs/Todo",
+  "newFileFolderPath": "src/content/docs/todo",
   "newLinkFormat": "relative",
   "useMarkdownLinks": true
 }

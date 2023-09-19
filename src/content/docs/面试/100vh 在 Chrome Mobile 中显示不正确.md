@@ -6,9 +6,7 @@ categories:
   - CSS
   - Chrome
 tags:
-  - dvh
-  - lvh
-  - svh
+  - 视图单位
 featured: true
 draft: false
 ---
@@ -17,6 +15,6 @@ draft: false
 
 ![](../../assets/20230915030107.png)
 
-### 参考资料
+### 参考
 
 - [html - CSS3 100vh not constant in mobile browser - Stack Overflow](https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser)
