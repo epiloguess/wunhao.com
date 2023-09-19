@@ -9,12 +9,16 @@ tags:
 featured: false
 draft: true
 ---
+
 ### 区别和联系
 
 - forEach 返回 undefined
 - map 返回新数组
 
 ### 如何中断
+
+- `return`
+- `try...catch`
 
 ---
 
