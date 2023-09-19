@@ -11,12 +11,8 @@
             "id": "c2597715755db7f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "src/content/docs/test/回调地狱.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/test/回调地狱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/docs/test/回调地狱.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "src/content/docs/test/回调地狱.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -166,10 +158,15 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "c2597715755db7f6",
+  "active": "ebd30282989be831",
   "lastOpenFiles": [
+    "src/content/docs/test/回调地狱.md",
+    "src/content/docs/TEST/回调地狱.md",
+    "src/content/docs/TEST",
+    "src/content/docs/Demo/arch linux安装笔记.md",
+    "src/content/docs/Demo",
     "src/content/docs/demo/arch linux安装笔记.md",
-    "src/content/docs/面试/回调.md",
+    "src/content/docs/Demo/回调.md",
     "src/content/docs/demo",
     "src/content/docs/test",
     "README.md",
@@ -180,7 +177,7 @@
     "src/content/docs/面试/powershell使用代理.md",
     "src/content/docs/面试/git基础使用.md",
     "src/content/docs/面试/FE_TEST_QA.md",
-    "src/content/docs/面试/100vh 在 Chrome Mobile 中显示不正确.md",
+    "src/content/docs/TEST/100vh 在 Chrome Mobile 中显示不正确.md",
     "src/content/docs/面试/作用域和作用域链.md",
     "src/content/docs/面试/作用域和执行上下文.md",
     "src/content/docs/面试/作用域.md",
@@ -196,14 +193,9 @@
     "src/content/docs/面试/异步函数.md",
     "src/content/docs/面试/压缩图片.md",
     "src/content/docs/面试/压缩 CSS.md",
-    "src/content/docs/面试/尾递归.md",
-    "src/content/docs/面试/伪类和伪元素.md",
-    "src/content/docs/面试/图片懒加载.md",
     "src/content/docs/git",
     "src/content/docs/css",
     "src/content/docs/todo",
-    "src/content/docs/react",
-    "src/content/docs/npm",
     "src/content/assets/20230915030107.png",
     "dist/_astro/1660714348-109d793f5bdd26e2fa651f8a86d957ef.caf2d9d6.png",
     "dist/_astro/1660714257-5f98d4ab2beffd6f44b99f7808d63f4a.94f0c1cd.png",
