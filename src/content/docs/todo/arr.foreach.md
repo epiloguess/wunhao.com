@@ -1,6 +1,6 @@
 ---
-title: 手写promise
-pubDate: 2023-09-15
+title: arr.foreach
+pubDate: 2023-09-21
 description: ""
 categories:
   - default
@@ -9,8 +9,3 @@ tags:
 featured: false
 draft: true
 ---
-
-
----
-
-[[Promise]]

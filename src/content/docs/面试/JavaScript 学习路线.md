@@ -22,10 +22,6 @@ pnpm
 
 Git
 
-React
-
-immer
-
 Tailwind
 
 Jest
@@ -69,3 +65,7 @@ vue3
 axios
 
 sass
+
+React
+
+immer

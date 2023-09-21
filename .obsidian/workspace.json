@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f1d037be463eb5b9",
+            "id": "1e1f3a0be10572da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/面试/Promise.md",
+                "file": "src/content/docs/todo/arr.foreach.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.49999618530273
+    "width": 285.49999618530273,
+    "collapsed": true
   },
   "right": {
     "id": "f3ed40bea7cdc821",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/面试/Promise.md",
+                "file": "src/content/docs/todo/arr.foreach.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/docs/面试/Promise.md",
+                "file": "src/content/docs/todo/arr.foreach.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/面试/Promise.md"
+                "file": "src/content/docs/todo/arr.foreach.md"
               }
             }
           }
@@ -166,41 +167,41 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "f1d037be463eb5b9",
+  "active": "1e1f3a0be10572da",
   "lastOpenFiles": [
-    "src/content/docs/面试/Vue生命周期.md",
+    "src/content/docs/面试/JavaScript 学习路线.md",
     "src/content/docs/面试/map 和 forEach.md",
-    "src/content/docs/todo/Git大小写敏感.md",
-    "src/content/docs/面试/vue组件通信.md",
-    "src/content/docs/面试/事件循环.md",
-    "src/content/docs/面试/HTTP Messages HTTP 消息.md",
-    "src/content/docs/面试/Keyed collections  键控集合.md",
-    "src/content/docs/面试/Javascript表达式.md",
-    "src/content/docs/面试/函数.md",
-    "src/content/docs/面试/undefined.md",
+    "src/content/docs/todo/arr.foreach.md",
+    "src/content/docs/面试/数组扁平化.md",
+    "src/content/docs/a.md",
+    "src/content/docs/面试/Object.md",
+    "src/content/docs/面试/arr.reverse.md",
+    "src/content/docs/面试/二分查找.md",
+    "src/content/docs/面试/Indexed collections 索引集合.md",
+    "src/content/docs/面试/路由懒加载.md",
+    "src/content/docs/面试/事件委托.md",
+    "src/content/docs/面试/GET和POST的区别.md",
+    "src/content/docs/面试/CSS-overflow.md",
+    "src/content/docs/面试/webpack-TreeShaking.md",
+    "src/content/docs/面试/字符串原始值和字符串对象.md",
+    "src/content/docs/面试/CSS布局.md",
+    "src/content/docs/面试/伪类和伪元素.md",
+    "src/content/docs/面试/Array.isArray()和 instance of Array.md",
     "src/content/docs/面试/CSS 选择器.md",
-    "src/content/docs/面试/CSS选择器优先级.md",
-    "src/content/docs/面试/减少http请求.md",
-    "src/content/docs/面试/100vh 在 Chrome Mobile 中显示不正确.md",
-    "src/content/docs/面试/前端性能优化.md",
-    "src/content/docs/面试/ArrayBuffer.md",
+    "src/content/docs/面试/浏览器缓存.md",
+    "src/content/docs/面试/原型和原型链.md",
+    "src/content/docs/面试/防抖和节流.md",
+    "src/content/docs/面试/= =和= = =的区别.md",
+    "src/content/docs/面试/正则表达式.md",
+    "src/content/docs/面试/Promise.all.md",
+    "src/content/docs/面试/路由守卫.md",
     "src/content/docs/todo",
-    "src/content/docs/面试/new 运算符.md",
-    "src/content/docs/面试/arr.reduce.md",
-    "src/content/docs/面试/git基础使用.md",
-    "src/content/docs/面试/arch linux安装笔记.md",
-    "src/content/docs/面试/回调.md",
-    "src/content/docs/面试/回调地狱.md",
-    "src/content/docs/test/回调地狱.md",
     "src/content/docs/TEST",
     "src/content/docs/Demo",
-    "src/content/docs/demo/arch linux安装笔记.md",
     "src/content/docs/demo",
     "src/content/docs/test",
-    "README.md",
     "src/content/docs/css",
     "src/content/docs/Todo",
-    "src/content/docs/面试/超出宽度的文本替换为省略号.md",
     "src/content/docs/windows",
     "src/content/docs/git",
     "src/content/docs/css",
