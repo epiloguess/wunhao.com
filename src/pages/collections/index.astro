@@ -2,6 +2,8 @@
 import Layout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
+import Login from "../../components/Login.astro";
+
 const allPosts = await getCollection(
   "docs",
   (post) => post.data.draft == false
@@ -15,6 +17,7 @@ const uniqueFolder = allPosts.map((post) =>
 ---
 
 <Layout title="Collections">
+  <!-- <Login /> -->
   <div>
     {
       allPosts.map((post) => {

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "35785f4d07b38b68",
+        "id": "8fc485d0524bc823",
         "type": "tabs",
         "children": [
           {
-            "id": "1e1f3a0be10572da",
+            "id": "fd79eaf15906590b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/content/docs/todo/arr.foreach.md",
+                "file": "src/content/blog/resume.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.49999618530273,
-    "collapsed": true
+    "width": 285.49999618530273
   },
   "right": {
     "id": "f3ed40bea7cdc821",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/content/docs/todo/arr.foreach.md",
+                "file": "src/content/blog/resume.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/content/docs/todo/arr.foreach.md",
+                "file": "src/content/blog/resume.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/content/docs/todo/arr.foreach.md"
+                "file": "src/content/blog/resume.md"
               }
             }
           }
@@ -151,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,34 +165,39 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "1e1f3a0be10572da",
+  "active": "fd79eaf15906590b",
   "lastOpenFiles": [
-    "src/content/docs/面试/JavaScript 学习路线.md",
-    "src/content/docs/面试/map 和 forEach.md",
-    "src/content/docs/todo/arr.foreach.md",
-    "src/content/docs/面试/数组扁平化.md",
-    "src/content/docs/a.md",
-    "src/content/docs/面试/Object.md",
-    "src/content/docs/面试/arr.reverse.md",
-    "src/content/docs/面试/二分查找.md",
-    "src/content/docs/面试/Indexed collections 索引集合.md",
-    "src/content/docs/面试/路由懒加载.md",
-    "src/content/docs/面试/事件委托.md",
-    "src/content/docs/面试/GET和POST的区别.md",
-    "src/content/docs/面试/CSS-overflow.md",
-    "src/content/docs/面试/webpack-TreeShaking.md",
-    "src/content/docs/面试/字符串原始值和字符串对象.md",
-    "src/content/docs/面试/CSS布局.md",
-    "src/content/docs/面试/伪类和伪元素.md",
-    "src/content/docs/面试/Array.isArray()和 instance of Array.md",
-    "src/content/docs/面试/CSS 选择器.md",
-    "src/content/docs/面试/浏览器缓存.md",
-    "src/content/docs/面试/原型和原型链.md",
-    "src/content/docs/面试/防抖和节流.md",
-    "src/content/docs/面试/= =和= = =的区别.md",
-    "src/content/docs/面试/正则表达式.md",
-    "src/content/docs/面试/Promise.all.md",
-    "src/content/docs/面试/路由守卫.md",
+    "src/content/docs/面试/对象中this的指向.md",
+    "src/content/docs/todo/Object.assign.md",
+    "src/content/docs/面试/setTimeout.md",
+    "src/content/docs/面试/padding-top.md",
+    "src/content/docs/面试/spread语法.md",
+    "src/content/docs/面试/mouseover-mouseoutout-mouseenter-mouseleave.md",
+    "src/content/docs/面试/diff 算法的 patch flag.md",
+    "src/content/docs/面试/XMLHttpRequest.md",
+    "src/content/docs/面试/git merge.md",
+    "src/content/docs/面试/margin 塌陷.md",
+    "src/content/docs/面试/map()和 parseInt()的结合.md",
+    "src/content/docs/面试/typeof.md",
+    "src/content/docs/面试/async 和 defer.md",
+    "src/content/docs/面试/async和await.md",
+    "src/content/docs/面试/bind 函数绑定.md",
+    "src/content/docs/面试/call和apply.md",
+    "src/content/docs/面试/animation和transition.md",
+    "src/content/docs/面试/cookie.md",
+    "src/content/docs/面试/Promise方法.md",
+    "src/content/docs/面试/Javascript运算符.md",
+    "src/content/docs/面试/HTTP headers.md",
+    "src/content/docs/面试/Internationalization  国际化.md",
+    "src/content/docs/面试/CSRF 跨站请求伪造.md",
+    "src/content/docs/面试/Base64.md",
+    "src/content/docs/面试/220817-git-远程仓库回退的两种方式.md",
+    "src/content/docs/面试/220818-Docker-win10上修改docker的镜像文件存储位置-九-通过WSL2修改.md",
+    "src/content/assets/1697160952155.png",
+    "src/content/assets/react hook .png",
+    "src/content/docs/react",
+    "a.html",
+    "src/components/Login.astro",
     "src/content/docs/todo",
     "src/content/docs/TEST",
     "src/content/docs/Demo",
@@ -202,9 +205,6 @@
     "src/content/docs/test",
     "src/content/docs/css",
     "src/content/docs/Todo",
-    "src/content/docs/windows",
-    "src/content/docs/git",
-    "src/content/docs/css",
     "src/content/assets/20230915030107.png",
     "dist/_astro/1660714348-109d793f5bdd26e2fa651f8a86d957ef.caf2d9d6.png",
     "dist/_astro/1660714257-5f98d4ab2beffd6f44b99f7808d63f4a.94f0c1cd.png",
@@ -213,8 +213,6 @@
     "dist/_astro/20230915030107.457fc905.png",
     "dist/_astro/1694772402679.9ed56933.png",
     "dist/_astro/1660789848-ef3c8435b2e201e808fc1f143a262e16.b0be007f.png",
-    "dist/_astro/1660789848-eba39d34fa598cc9de190df12da0b439.acfd845e.png",
-    "dist/_astro/1660789848-61f2114c478d07f6c0bccbf9bc28058c.1bf3722b.png",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",

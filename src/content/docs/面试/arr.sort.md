@@ -50,7 +50,7 @@ arr.sort((a, b) => a - b);
 | < 0    | `a`  在  `b`  前，如  `[a, b]` |
 | === 0  | 保持  `a`  和  `b`  原来的顺序 |
 
-可以通过 `return b -a` 实现 [arr.reverse](arr.reverse.md)
+可以通过 `return b - a` 实现 [arr.reverse](arr.reverse.md)
 
 ---
 

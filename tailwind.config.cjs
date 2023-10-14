@@ -10,7 +10,7 @@ module.exports = {
         },
       },
       animation: {
-        rotate: "rotate 3s ease-in-out infinite",
+        rotate: "rotate 4s ease-in-out infinite",
       },
     },
   },

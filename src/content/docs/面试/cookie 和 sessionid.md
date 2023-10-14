@@ -9,4 +9,4 @@ tags:
 featured: false
 draft: true
 ---
-### cokkie 和 sessionid
+### cookie 和 sessionid
