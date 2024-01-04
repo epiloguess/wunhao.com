@@ -53,7 +53,7 @@ draft: true
 
     在 CC 的省电模式中，可以自动将显卡频率降到 1260Mhz，此时电压约为 0.68V，功耗大概 70W。
 
-![](../../assets/1652175039-98b9f88d0316d0ad079a6789017ee26b.webp)
+![](../assets/1652175039-98b9f88d0316d0ad079a6789017ee26b.webp)
 
 这个温度不是更舒服吗？
 
@@ -63,7 +63,7 @@ draft: true
 
 下为 AfterBurner 的电压曲线。
 
-![](../../assets/1652175039-87619dff90b210f22a9c95a0b9a7fc99.webp)
+![](../assets/1652175039-87619dff90b210f22a9c95a0b9a7fc99.webp)
 
 操作方法：按下 SHIFT 选中所有点，点击最左边的点，SHIFT+两次回车，曲线就会变值。 ^473bcb
 

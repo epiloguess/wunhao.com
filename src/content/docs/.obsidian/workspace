@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "f1b5e6ca59717bfa",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6fa3c4d0b4e7225",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Vanlife!/预算.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aa6af0687083377a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6ac8eb55b0a790a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebd30282989be831",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2d4ffb9ae2947ddb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c6edfc6428e29559",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236.5
+  },
+  "right": {
+    "id": "f3ed40bea7cdc821",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb5a838922301423",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "757cce4f1bc651b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Vanlife!/预算.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2fa4fb5359e82000",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c58b345e0d1579f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Vanlife!/预算.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cdea64164dd52e5b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "835e7e9ec54569f2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Vanlife!/预算.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 216.5,
+    "collapsed": true
+  },
+  "active": "c6fa3c4d0b4e7225",
+  "lastOpenFiles": [
+    "营销师/d d.md",
+    "MySQL/d d.md",
+    "MySQL/未命名.md",
+    "MySQL/基础命令.md",
+    "Golang/geektutu/Go Gin 简明教程.md",
+    "Golang/geektutu/专题-极客兔兔.md",
+    "Golang/李文周-Go语言学习之路-Go语言教程/Gin.md",
+    "Golang/李文周-Go语言学习之路-Go语言教程/gin 框架快速指南.md",
+    "Golang/李文周-Go语言学习之路-Go语言教程/Go 语言学习之路-Go 语言教程.md",
+    "Golang/李文周-Go语言学习之路-Go语言教程/Go 语言标准库之 http-template.md"
+  ]
+}

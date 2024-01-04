@@ -53,7 +53,7 @@ github 在 2020/10/1 宣布上的所有新库都将用中性词「main」命名�
 
 <img src="https://shukai.oss-cn-hangzhou.aliyuncs.com/Typora/image-20210812115247881.png" alt="image-20210812115247881" style="zoom:70%;" />
 
-![](../../assets/1660714257-16d795239a312e7ba18abd6b1fcfc7af.png)
+![](../assets/1660714257-16d795239a312e7ba18abd6b1fcfc7af.png)
 
 image-20210812112632838
 
@@ -61,13 +61,13 @@ image-20210812112632838
 
 打开指定库，setting
 
-![](../../assets/1660714257-5f98d4ab2beffd6f44b99f7808d63f4a.png)
+![](../assets/1660714257-5f98d4ab2beffd6f44b99f7808d63f4a.png)
 
 image-20210812132952531
 
 将默认分支改为 master 即可：
 
-![](../../assets/1660714257-976bb1e035350a601d30be8f25eb65ff.png)
+![](../assets/1660714257-976bb1e035350a601d30be8f25eb65ff.png)
 
 image-20210812133248620
 

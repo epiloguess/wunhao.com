@@ -25,14 +25,14 @@ draft: true
 ### 1.件版本
 
 *   window 10 v1909 小版本号  
-    ![在这里插入图片描述](../../assets/1660789848-61f2114c478d07f6c0bccbf9bc28058c.png)
-*   Docker Desktop Installer v20.10.0（ 细致版本看下图）![在这里插入图片描述](../../assets/1660789848-32a1d4e5ca4f9c261c677cd184c4b80c.png)
+    ![在这里插入图片描述](../assets/1660789848-61f2114c478d07f6c0bccbf9bc28058c.png)
+*   Docker Desktop Installer v20.10.0（ 细致版本看下图）![在这里插入图片描述](../assets/1660789848-32a1d4e5ca4f9c261c677cd184c4b80c.png)
 
 ### 2.安装过程所遇
 
 1.  官网下载的docker.exe直接安装即可，安装中间选项，直接安装的C盘下（`C:\Program Files\Docker`），由上面的docker info可看出，docker的默认路径（`/var/lib/docker`）跟linux一样了，与window的之前docker版本不一样了，这是为什么？
 2.  点击安装的docker icon,启动桌面，会提示安装[WSL](https://docs.microsoft.com/zh-cn/windows/wsl/about)（这是啥，这里就不赘述了），安装提示安装即可，版本是`WSL2`，如果不安装，启动不了`docker engine`服务，当然也可以不使用这个，如下图，设置中有选项，可尝试，让后再修改试试看，不过我建议按默认的来，官网推荐；  
-    ![在这里插入图片描述](../../assets/1660789848-0802f1da3c8c4ae1d45820732d0434d2.png)
+    ![在这里插入图片描述](../assets/1660789848-0802f1da3c8c4ae1d45820732d0434d2.png)
 3.  目前的docker版本依附WSL来进行文件映射，所以，我们需要通过wsl来修改docker的文件映射路径，可理解为文件挂载
 
 ### 3.使用WSL修改[docker](https://so.csdn.net/so/search?q=docker&spm=1001.2101.3001.7020)文件存储位置
@@ -48,7 +48,7 @@ WSL2模式下docker-desktop-data vm磁盘映像通常位于以下位置：
     ```
     
 *   您应该能够看到，确保两个状态都已停止。  
-    ![在这里插入图片描述](../../assets/1660789848-ef3c8435b2e201e808fc1f143a262e16.png)
+    ![在这里插入图片描述](../assets/1660789848-ef3c8435b2e201e808fc1f143a262e16.png)
 
 > 默认情况下，Docker Desktop for Window会创建如下两个发行版（distro) C:\\Users\\jayzhen\\AppData\\Local\\Docker\\wsl  
 > docker-desktop (对应distro/ext4.vhdx)  
@@ -80,7 +80,7 @@ WSL2模式下docker-desktop-data vm磁盘映像通常位于以下位置：
 
 修改前记录 `C:\Users\jayzhen\AppData\Local\Docker\wsl`目录文件大小（大于2G）  
 修改后，在记录其文件大小（小于200M）和`D:\\docker\\wsl`（1.47G），然后`docker pull`任意一个镜像（我下载了nginx、tomcat），再看`C:\Users\jayzhen\AppData\Local\Docker\wsl`目录无变化，而`D:\\docker\\wsl`增大到`2.26G`  
-![在这里插入图片描述](../../assets/1660789848-eba39d34fa598cc9de190df12da0b439.png)
+![在这里插入图片描述](../assets/1660789848-eba39d34fa598cc9de190df12da0b439.png)
 
 最后，如果在验证后一切没有问题，则可以删除`D:\\docker-desktop-data.tar`文件，记住可不是ext4.vhdx文件，这可是重要文件
 

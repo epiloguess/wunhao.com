@@ -10,5 +10,7 @@ featured: false
 draft: true
 ---
 
-[CSS画三角形，箭头 - 简书](https://www.jianshu.com/p/cf7d5920a7ed)
+### 参考
+
+- [CSS画三角形，箭头 - 简书](https://www.jianshu.com/p/cf7d5920a7ed)
 

@@ -9,4 +9,4 @@ tags:
 featured: false
 draft: true
 ---
-[[no-cache 和 no-store]]
+[[HTTP缓存]]
