@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/Astro 建站小记.md",
+                "file": "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "##",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -88,8 +88,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/Astro 建站小记.md",
+                "file": "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/Astro 建站小记.md",
+                "file": "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/Astro 建站小记.md"
+                "file": "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md"
               }
             }
           }
@@ -165,6 +164,13 @@
   },
   "active": "e9ea2aabd66f13e5",
   "lastOpenFiles": [
+    "template/template.md",
+    "blog/aboutme.md",
+    "blog/about.md",
+    "面试/Astro 建站小记.md",
+    "todo/Debian Setup.md",
+    "blog/resume.md",
+    "blog",
     "面试/call和apply.md",
     "面试/执行上下文.md",
     "面试/Arch Linux Setup.md",
@@ -176,8 +182,6 @@
     "todo/Linux.md",
     "todo/TypeScript 笔记.md",
     "react/React 笔记.md",
-    "todo/Debian Setup.md",
-    "面试/Astro 建站小记.md",
     "面试/Git 开发流程和技巧.md",
     "assets/1704419306166.png",
     "assets/Pasted image 20240105094719.png",
@@ -189,10 +193,6 @@
     "面试/闭包.md",
     "todo/Object.assign.md",
     "面试/Polyfill 和转译器.md",
-    "template/template.md",
-    "面试/可迭代对象和类数组对象.md",
-    "面试/严格模式.md",
-    "面试/link标签.md",
     "assets/1698379386893.png",
     "assets",
     "template",
@@ -210,7 +210,6 @@
     "src/content/docs/react",
     "a.html",
     "src/components/Login.astro",
-    "src/content/docs/todo",
     "未命名 1.canvas",
     "未命名.canvas",
     "未命名 3.canvas",

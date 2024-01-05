@@ -4,6 +4,7 @@ import { getCollection } from "astro:content";
 
 import Login from "../../components/Login.astro";
 
+import TagsCard from "../../components/PostsLayout/TagsCard.astro";
 const allPosts = await getCollection(
   "docs",
   (post) => post.data.draft == false
@@ -17,36 +18,7 @@ const uniqueFolder = allPosts.map((post) =>
 ---
 
 <Layout title="Tags">
-  <!-- <Login /> -->
-  <div>
-    {
-      allPosts.map((post) => {
-        const postLength = post.slug.split("/").length;
-        const collection = post.slug.split("/")[postLength - 2];
-        const postPathWithoutSelf = post.slug
-          .split("/")
-          .slice(0, postLength - 1)
-          .join("/");
-
-        const postAtSameFolder = allPosts.filter(
-          (post) =>
-            post.slug.startsWith(postPathWithoutSelf) &&
-            (post.slug.split("/").length = postLength)
-        );
-
-        return (
-          <section>
-            {postAtSameFolder.map((post) => (
-              <div>{post.id} </div>
-            ))}
-          </section>
-        );
-      })
-    }
-    <div>
-      {uniqueFolder}
-    </div>
-  </div>
+<TagsCard posts={allPosts}></TagsCard>
 </Layout>
 
 <style>

@@ -42,7 +42,6 @@ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffe
 - Gnome-software
 
 ```bash
-
 sudo nano /etc/xdg/autostart/org.gnome.Software.desktop
 ```
 

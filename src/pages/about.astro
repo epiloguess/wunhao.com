@@ -3,7 +3,8 @@ import Layout from "../layouts/BaseLayout.astro";
 
 import { getEntry } from "astro:content";
 
-const page = await getEntry("blog", "about");
+// const page = await getEntry("blog", "about");
+const page = await getEntry("docs", "blog/about");
 
 const { Content } = await page.render();
 
