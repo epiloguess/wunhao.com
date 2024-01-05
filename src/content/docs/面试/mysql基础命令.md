@@ -19,7 +19,7 @@ exit
 
 ```
 
-```mysql
+```sql
 #重置密码
 SET PASSWORD FOR root@localhost=PASSWORD('1234')
 ```

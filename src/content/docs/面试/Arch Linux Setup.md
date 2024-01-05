@@ -123,7 +123,7 @@ sudo pacman -S wget openssh
 
 微软官方版本
 
-```bsah
+```bash
 yay -S visual-studio-code-bin
 ```
 

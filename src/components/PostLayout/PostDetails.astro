@@ -35,22 +35,7 @@ const NameOfFatherFolder = post.id
         </ul>
       </div>
     </section>
-    <section class="flex flex-col gap-4">
-      <h2 class="font-bold text-sm">Categories</h2>
-      <div class="flex flex-wrap gap-2">
-        <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
-          {
-            post.data.categories.map((category) => (
-              <li>
-                <a href={`/categories/${category}`} class="  text-indigo-500">
-                  {category}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </div>
-    </section>
+
     <section class="flex flex-col gap-4">
       <h2 class="font-bold text-sm">Tags</h2>
       <div class="flex flex-wrap gap-2">
