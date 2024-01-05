@@ -22,13 +22,9 @@ aliases:
 
 ### Debian
 
-#### Apt
+#### Apt 和 Apt-get
 
 [Site Unreachable](https://aws.amazon.com/cn/compare/the-difference-between-apt-and-apt-get/)
-
-
-[Site Unreachable](https://aws.amazon.com/cn/compare/the-difference-between-apt-and-apt-get/)
-
 
 ### SSH
 
@@ -44,10 +40,8 @@ chsh -s /bin/bash
 
 [自建 anki 同步服务器搭建步骤 2022 年最新完美版 | 张立志中文博客](https://www.aspirantzhang.com/network/anki-ankisyncd-self-host-2022.html)
 
-
 ### Systemctl
 
 #### 定时重启
 
 [linux - How can I configure a systemd service to restart periodically? - Stack Overflow](https://stackoverflow.com/questions/31055194/how-can-i-configure-a-systemd-service-to-restart-periodically)
-

@@ -1,15 +1,11 @@
 ---
-title: TypeScript学习笔记
-pubDate: 2023-10-11
-description: ""
-categories:
-  - default
+title: TypeScript 笔记
+pubDate: 2023-11-21
 tags:
-  - default
+  - TypeScirpt
+  - 笔记
 featured: false
-draft: true
-aliases:
-  - ts
+draft: false
 ---
 
 ### void, undefined, null

@@ -14,25 +14,25 @@ draft: false
 
 欢迎来到我的博客，
 
-## What I'm doing now
+### What I'm doing now
 
 - 找一份前端开发的工作
 
-## Favorites
+### Favorites
 
 - **Color** - 天蓝色
 - **Season** - 秋天
 - **Animal** - 猫
 
-## Tools
+### Tools
 
-### Software
+#### Software
 
 - **Coding**: [Visual Studio Code](https://code.visualstudio.com/)
 - **Notes**: [Obsidian](https://obsidian.md/)
 - **Music**: [QQMusic](https://y.qq.com/)
 
-### Hardware
+#### Hardware
 
 - **PC**: Barebones Of TongFang GS5
 
@@ -46,6 +46,6 @@ draft: false
 - **手机**: [OnePlus Ace2](https://www.oneplus.com/cn/ace-2)
 - **耳机**: [HUAWEI FreeBuds 5i ](https://consumer.huawei.com/en/headphones/freebuds5i/)
 
-## 杂项
+### 杂项
 
 - [简历](/resume)

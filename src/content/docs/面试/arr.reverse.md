@@ -13,4 +13,4 @@ draft: true
 
 ---
 
-[[数组方法]]
+[[JavaScript 数组方法]]

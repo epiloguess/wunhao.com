@@ -1,6 +1,9 @@
 ---
 const { post } = Astro.props;
-import Layout from "./SideBarLayout.astro";
+
+
+import Layout from "./BaseLayout.astro";
+
 import Prose from '../components/Prose.astro'
 
 import AboutMe from "../components/index/AboutMe.astro";
@@ -9,23 +12,38 @@ import PostDetailsSmall from "../components/PostLayout/PostDetailsSmall.astro";
 ---
 
 <Layout title={post.data.title}>
-  <section slot="article-content">
-    <section class="">
-      <PostDetailsSmall post={post} />
-    </section>
 
-    <!-- <section
-      class="prose prose-h2:mx-4 prose-h3:mx-6 prose-h4:mx-8 prose-h5:mx-10 prose-headings:tracking-widest prose-headings:italic prose-headings:text prose-li:marker:text-sky-400 prose-headings:border prose-headings:rounded-lg prose-headings:text-center prose-headings:border-gray-400 prose-code:before:content-[''] prose-code:after:content-[''] prose-code:text-sky-600 prose-blockquote:border-pink-500 prose-tr:border-b prose-tr:border-gray-300 prose-headings:font-bold max-w-full"
-    > -->
+  <div class="md:flex justify-between gap-10">
+    <section class="flex flex-col gap-10 flex-auto">
+      <header>
+        <h1 class="text-2xl md:text-4xl font-bold">{post.data.title}</h1>
+      </header>
+        <!-- <section slot="article-content"> -->
     <section >
-      <Prose>
-      <slot />
-      </Prose>
+      <section class="">
+        <PostDetailsSmall post={post} />
+      </section>
+  
+      <!-- <section
+        class="prose prose-h2:mx-4 prose-h3:mx-6 prose-h4:mx-8 prose-h5:mx-10 prose-headings:tracking-widest prose-headings:italic prose-headings:text prose-li:marker:text-sky-400 prose-headings:border prose-headings:rounded-lg prose-headings:text-center prose-headings:border-gray-400 prose-code:before:content-[''] prose-code:after:content-[''] prose-code:text-sky-600 prose-blockquote:border-pink-500 prose-tr:border-b prose-tr:border-gray-300 prose-headings:font-bold max-w-full"
+      > -->
+      <section >
+        <Prose>
+        <slot />
+        </Prose>
+      </section>
     </section>
-  </section>
-  <!-- <section slot="sidebar-content" class="flex flex-col gap-4">
-    <AboutMe />
-    <PostDetails post={post} />
-  </section> -->
+    <!-- <section slot="sidebar-content" class="flex flex-col gap-4">
+      <AboutMe />
+      <PostDetails post={post} />
+    </section> -->
+    </section>
+    <!-- <section class="hidden lg:block w-[280px] min-w-[280px]">
+      <slot name="sidebar-content" />
+    </section> -->
+  </div>
+
+
+
 </Layout>
 <style></style>

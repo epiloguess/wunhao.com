@@ -1,9 +1,6 @@
 ---
 title: Git大小写敏感
 pubDate: 2023-09-20
-description: ""
-categories:
-  - default
 tags:
   - default
 featured: false

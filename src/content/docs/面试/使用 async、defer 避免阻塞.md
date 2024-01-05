@@ -9,6 +9,7 @@ tags:
 featured: false
 draft: true
 ---
+
 [脚本：async，defer](https://zh.javascript.info/script-async-defer)
 
 > `defer`  特性告诉浏览器不要等待脚本。相反，浏览器将继续处理 HTML，构建 DOM。脚本会“在后台”下载，然后等 DOM 构建完成后，脚本才会执行。
@@ -19,5 +20,3 @@ draft: true
 ---
 
 [前端性能优化](前端性能优化.md)
-
-

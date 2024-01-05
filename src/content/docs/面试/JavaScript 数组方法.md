@@ -1,16 +1,14 @@
 ---
-title: map 和 forEach
+title: JavaScript 数组方法
 pubDate: 2023-09-15
-description: ""
-categories:
-  - default
 tags:
-  - default
+  - JavaScript
+  - 数组
 featured: false
 draft: true
 ---
 
-  ### 数组方法比较
+### 数组方法比较
 
 同样适用于在 react 中使用数组方法的注意事项
 ![[../assets/Pasted image 20230818110425.png]]
@@ -21,7 +19,7 @@ draft: true
 
 ### 区别和联系
 
-- forEach 返回 undefined
+- forEach 返回 `undefined`
 - map 返回新数组
 
 主要有三点

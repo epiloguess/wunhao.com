@@ -1,13 +1,15 @@
 ---
-title: git基础使用
-pubDate: 2023-09-15
+title: Git 基础使用
+pubDate: 2024-01-04
 description: ""
 categories:
-  - default
+  - Git
 tags:
-  - default
+  - 笔记
 featured: false
 draft: true
+aliases:
+  - Git 基础使用
 ---
 
 ```shell

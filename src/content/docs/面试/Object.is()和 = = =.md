@@ -1,13 +1,13 @@
 ---
 title: Object.is()和 = = =
-pubDate: 2023-09-18
+pubDate: 2023-06-18
 description: ""
 categories:
   - default
 tags:
   - default
 featured: false
-draft: true
+draft: false
 ---
 
 > 1. `Object.is()`  方法对于一些特殊的值比较更准确：

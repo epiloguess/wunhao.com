@@ -1,5 +1,5 @@
 ---
-title: React学习笔记
+title: React 笔记
 pubDate: 2023-01-01
 description: ""
 categories:

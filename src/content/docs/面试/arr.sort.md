@@ -1,9 +1,6 @@
 ---
 title: arr.sort
 pubDate: 2023-09-16
-description: ""
-categories:
-  - JavaScript
 tags:
   - 数组方法
 featured: false
@@ -54,4 +51,4 @@ arr.sort((a, b) => a - b);
 
 ---
 
-[[数组方法]]
+[[JavaScript 数组方法]]

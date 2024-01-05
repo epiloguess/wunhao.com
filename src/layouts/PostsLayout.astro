@@ -6,7 +6,7 @@ const allPosts = await getCollection(
   (post) => post.data.draft == false
 );
 
-import Layout from "../layouts/SideBarLayout.astro";
+import Layout from "../layouts/BaseLayout.astro";
 import CategoriesCard from "../components/PostsLayout/CategoriesCard.astro";
 import TagsCard from "../components/PostsLayout/TagsCard.astro";
 import BlogPost from "../components/PostsLayout/BlogPostByYears.astro";
@@ -15,9 +15,9 @@ const { title, posts } = Astro.props;
 ---
 
 <Layout title={title}>
-  <BlogPost slot="article-content" posts={posts} />
-  <section slot="sidebar-content" class="flex flex-col gap-4">
+  <BlogPost posts={posts} />
+  <!-- <section slot="sidebar-content" class="flex flex-col gap-4">
     <CategoriesCard posts={allPosts} />
     <TagsCard posts={allPosts} />
-  </section>
+  </section> -->
 </Layout>

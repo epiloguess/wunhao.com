@@ -5,7 +5,9 @@ description: ""
 categories:
   - default
 tags:
-  - default
+  - SSG
+  - Astro
+  - 前端框架
 featured: false
 draft: false
 ---
@@ -34,12 +36,9 @@ draft: false
 
 `src/content/template`
 
-
 ### Obsidian 配置
 
-#### 设置
-
-**设置-选项-文件与链接**
+#### 设置-选项-文件与链接
 
 - 始终更新内部链接
   - 开启
@@ -60,3 +59,5 @@ draft: false
   - 配置 `Pattern` 第一个选项，配置参考`{{DATE:x}}`
   - 开启 `Auto rename`
   - 从外部复制图片到 Obsidian 中，文件名中默认包含空格，而 Astro 暂不支持在 Markdown 中导入文件名中包含空格或者转义字符的图片，所以需要此插件自动修改文件名
+
+

@@ -1,9 +1,6 @@
 ---
 title: Canvas
 pubDate: 2023-10-25
-description: ""
-categories:
-  - default
 tags:
   - default
 featured: false

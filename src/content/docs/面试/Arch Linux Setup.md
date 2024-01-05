@@ -1,16 +1,14 @@
 ---
-title: Arch linux安装笔记
-pubDate: 2023-09-15
-description: ""
-categories:
-  - default
+title: Arch Linux Setup
+pubDate: 2023-01-02
 tags:
-  - default
+  - Linux
+  - Arch
 featured: false
 draft: true
 ---
 
-#### 安装 archlinux
+### 启用 WIFI
 
 ```bash
 rfkill
@@ -33,7 +31,7 @@ station wlan0 show
 
 ```
 
-#### 硬盘分区与格式化
+### 硬盘分区与格式化
 
 ```bash
 cfdisk
@@ -43,7 +41,7 @@ cfdisk
 pacman -Syy
 ```
 
-#### 添加 Grub 引导
+### 添加 Grub 引导
 
 ```
 grub-mkconfig > /boot/grub/grub.cfg
@@ -52,23 +50,23 @@ grub-instll --target=x86_64-efi --efi-directory=/boot
 
 ```
 
-#### 可选-配置多显示器
+### 可选-配置多显示器
 
 ```
 yay -S arandr
 ```
 
-#### 配置 bashrc 别名
+### 配置 bashrc 别名
 
 `alias`
 
-#### 可选-配置 dwm
+### 可选-配置 dwm
 
-#### 配置网络
+### 配置网络
 
 [参考](http://t.zoukankan.com/cirry-p-arch-install-step-two.html)
 
-##### 关闭 iwd
+#### 关闭 iwd
 
 ```bash
 ## 如果没有安装iwd就忽略前两条命令
@@ -78,23 +76,24 @@ sudo systemctl stop iwd
 #同上，立即关闭
 ```
 
-##### 启用 NetworkManager
+#### 启用 NetworkManager
 
 ```bash
 iwd
 sudo systemctl enable --now NetworkManager
-#确保先启动NetworkManager，并进行网络连接 若iwd已经与NetworkManager冲突 则执行完上一步重启一下电脑即可。
+## 确保先启动NetworkManager，并进行网络连接 若iwd已经与NetworkManager冲突 则执行完上一步重启一下电脑即可。
 ```
 
-#### pacman 相关
+### pacman 相关
 
-##### 更换 pacman 源
+#### 更换 pacman 源
 
-[archlinux](https://mirrors.tuna.tsinghua.edu.cn/help/archlinux/)
+[archlinux | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/help/archlinux/)
 
-[archlinuxcn](https://mirrors.tuna.tsinghua.edu.cn/help/archlinuxcn/)
 
-##### 安装 yay
+[archlinuxcn | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/help/archlinuxcn/)
+
+#### 安装 yay
 
 需要先安装 community 源，直接从 aur 编译会失败
 
@@ -102,23 +101,23 @@ sudo systemctl enable --now NetworkManager
 sudo pacman -S yay
 ```
 
-#### 常用的工具软件
+### 常用的工具软件
 
-##### 配置 kde
+#### 配置 kde
 
-###### 文件管理器
+##### 文件管理器
 
 ```
 sudo pacman -S [dolphin]
 ```
 
-##### ssh
+#### ssh
 
 ```
 sudo pacman -S wget openssh
 ```
 
-##### vscode
+#### vscode
 
 [参考](<https://wiki.archlinux.org/title/Visual_Studio_Code_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)
 
@@ -134,7 +133,7 @@ yay -S visual-studio-code-bin
 sudo pacman -S code
 ```
 
-##### 中文输入法
+#### 中文输入法
 
 [参考](https://www.modb.pro/db/113512)
 
@@ -152,20 +151,20 @@ sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-pinyin-zhwiki
 
 可能还需要 `kcm-fcitx5`
 
-##### qq qq 音乐
+#### qq qq 音乐
 
 ```bash
 yay -S linuxqq qqmusic-bin
 ```
 
-##### clash 代理
+#### clash 代理
 
 - [参考 1](https://codeswift.top/posts/clash-linux/#%E5%88%A9%E7%94%A8-export-%E5%91%BD%E4%BB%A4%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86)
 - [参考 2](https://zhuanlan.zhihu.com/p/396272999)
 
 [clash 地址](https://api1.testdns123.xyz/sub?target=clash&url=https%3A%2F%2Fdav201.xyz%2Fmodules%2Fservers%2FUnlimitedSocks%2Fsubscribeios.php%3Fsid%3D13718%26token%3DFsG65z8waLf6&list=false&udp=false)
 
-##### ntfs 挂载
+#### ntfs 挂载
 
 [参考](https://www.cnblogs.com/awakenedy/p/9699113.html)
 
@@ -173,7 +172,7 @@ yay -S linuxqq qqmusic-bin
 sudo pacman -S ntfs-3g
 ```
 
-##### 不推荐-配置 kde discovery
+#### 不推荐-配置 kde discovery
 
 [参考](https://www.cnblogs.com/dxrh/p/13252330.html)
 
@@ -181,13 +180,13 @@ sudo pacman -S ntfs-3g
 pacman -Si discover
 ```
 
-#### 系统驱动完善
+### 系统驱动完善
 
-##### 触摸板
+#### 触摸板
 
 [参考](https://www.jianshu.com/p/c5678ce41ab1)
 
-#### 电源管理 tlp
+### 电源管理 tlp
 
 ```
 pacman -S tlp
@@ -203,11 +202,11 @@ systemctl start tlp.service
 yay -S tlpui-git
 ```
 
-#### wine
+### wine
 
 [参考](https://blog.csdn.net/SHIGUANGTUJING/article/details/89291732)
 
-#### 数据库
+### 数据库
 
 [mysql](https://wiki.archlinux.org/title/MariaDB)
 

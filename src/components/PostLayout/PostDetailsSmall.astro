@@ -3,7 +3,7 @@ const { post } = Astro.props;
 ---
 
 <div class="md:flex gap-2 pb-2">
-  <section class="flex gap-4 items-center">
+  <section class="flex gap-2 items-center">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon icon-tabler icon-tabler-clock animate-spin"
@@ -29,7 +29,7 @@ const { post } = Astro.props;
     </div>
   </section>
 
-  <section class="flex gap-4 items-center">
+  <!-- <section class="flex gap-2 items-center">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon icon-tabler icon-tabler-category"
@@ -57,8 +57,8 @@ const { post } = Astro.props;
         ))
       }
     </div>
-  </section>
-  <section class="flex gap-4 items-center">
+  </section> -->
+  <section class="flex gap-2 items-center">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       class="icon icon-tabler icon-tabler-tags"
@@ -82,8 +82,8 @@ const { post } = Astro.props;
     </svg>
     <div class="flex flex-wrap gap-2">
       {
-        post.data.tags.map((tag) => (
-          <a class="  text-indigo-500" href={`/tags/${tag}`}>
+        post.data.tags.map((tag:string) => (
+          <a class="  bg-slate-300 rounded px-2 py-1" href={`/tags/${tag}`}>
             {tag}
           </a>
         ))

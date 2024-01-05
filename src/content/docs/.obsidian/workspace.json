@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7fe123205b93d3f",
+            "id": "e9ea2aabd66f13e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "todo/Vue.md",
+                "file": "面试/Object.is()和 = = =.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "todo/Vue.md",
+                "file": "面试/Object.is()和 = = =.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "todo/Vue.md",
+                "file": "面试/Object.is()和 = = =.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "todo/Vue.md"
+                "file": "面试/Object.is()和 = = =.md"
               }
             }
           }
@@ -159,39 +159,42 @@
       "workspaces:管理工作区布局": false,
       "audio-recorder:开始/结束录音": false,
       "daily-notes:打开/创建今天的日记": false,
-      "smart-random-note:Open Random Note from Search": false
+      "smart-random-note:Open Random Note from Search": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a7fe123205b93d3f",
+  "active": "e9ea2aabd66f13e5",
   "lastOpenFiles": [
-    "todo/对象方法.md",
-    "todo/roadmap.md",
+    "todo/单点登录.md",
+    "面试/href 和 src 的区别.md",
+    "面试/https.md",
+    "面试/Arch Linux Setup.md",
     "todo/Linux.md",
-    "面试/arch linux安装笔记.md",
-    "todo/debian setup.md",
-    "面试/回流.md",
-    "面试/Object 和 plain object.md",
-    "todo/Vue.md",
-    "todo/Nodejs.md",
-    "todo/IIFE 立即调用函数表达式.md",
-    "面试/JavaScript 学习路线.md",
-    "todo/虚拟列表.md",
-    "面试/FE_TEST_QA.md",
-    "todo/TreeShaking.md",
-    "面试/Object.getOwnPropertyNames和Object.keys.md",
-    "面试/Structured data 结构化数据.md",
-    "面试/对象中this的指向.md",
-    "todo/HTTP.md",
-    "todo/TypeScript学习笔记.md",
-    "react/React 学习笔记.md",
-    "assets/1698379386893.png",
-    "面试/100vh 在 Chrome Mobile 中显示不正确.md",
-    "assets",
-    "todo/前端文章精选.md",
+    "todo/TypeScript 笔记.md",
+    "react/React 笔记.md",
+    "todo/Debian Setup.md",
+    "面试/Astro 建站小记.md",
+    "面试/Git 开发流程和技巧.md",
+    "assets/1704419306166.png",
+    "assets/Pasted image 20240105094719.png",
+    "面试/路由守卫.md",
+    "面试/v-show 和 v-if.md",
+    "todo/Nodejs 参考资料.md",
+    "面试/Golang学习路线.md",
+    "面试/异步函数.md",
+    "面试/闭包.md",
+    "todo/Object.assign.md",
+    "面试/Polyfill 和转译器.md",
     "template/template.md",
-    "todo/GlobalNewsPodcast-20231128-IsraelAndHamasTruceExtendedByTwoDays.md",
-    "todo/ESL.md",
-    "面试/powershell使用代理.md",
+    "面试/可迭代对象和类数组对象.md",
+    "面试/严格模式.md",
+    "面试/link标签.md",
+    "面试/垃圾回收.md",
+    "面试/强缓存和协商缓存.md",
+    "面试/九九乘法表.md",
+    "面试/作用域和作用域链.md",
+    "assets/1698379386893.png",
+    "assets",
     "template",
     "assets/Pasted image 20230818110425.png",
     "assets/Pasted image 20230811181315.png",
@@ -200,8 +203,6 @@
     "assets/Pasted image 20230811135428.png",
     "assets/Pasted image 20230811110003.png",
     "assets/20230915030107.png",
-    "assets/1698379383028.png",
-    "assets/1697160952155.png",
     "assets",
     "新建文件夹",
     "src/content/docs/DailyNotes",

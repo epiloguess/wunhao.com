@@ -28,4 +28,4 @@ console.log(sumWithInitial);
 
 ---
 
-[[数组方法]]
+[[JavaScript 数组方法]]

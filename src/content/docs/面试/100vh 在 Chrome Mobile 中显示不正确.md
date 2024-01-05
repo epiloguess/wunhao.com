@@ -1,12 +1,11 @@
 ---
-title: 100vh 在 chrome mobile 中越界
+title: 100vh 在 Chrome Mobile 中显示不正确
 pubDate: 2023-09-14
-description: 使用最新的 dvh 的单位可以解决问题
-categories:
-  - CSS
-  - Chrome
 tags:
+  - Chrome
+  - CSS
   - 视图单位
+  - dvh
 featured: true
 draft: false
 ---

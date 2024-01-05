@@ -1,13 +1,8 @@
 ---
 title: "{{title}}"
-pubDate: 2023-01-01
-description: ""
-categories:
-  - default
+pubDate: 2024-01-01
 tags:
   - default
 featured: false
 draft: true
-aliases:
-  - "{{title}}"
 ---
