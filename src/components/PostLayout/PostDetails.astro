@@ -10,7 +10,7 @@ const NameOfFatherFolder = post.id
 <Layout title="Post Details">
   <div class="flex flex-col gap-4">
     <section>
-      <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
+      <ul class="marker:text-teal-400 list-disc pl-5 space-y-3 text-sm">
         <li>
           {
             ` ${post.data.pubDate.getFullYear()} 年 ${
@@ -23,7 +23,7 @@ const NameOfFatherFolder = post.id
     <section class="flex flex-col gap-4">
       <h2 class="font-bold text-sm">Collection</h2>
       <div class="flex flex-wrap gap-2">
-        <ul class="marker:text-sky-400 list-disc pl-5 space-y-3 text-sm">
+        <ul class="marker:text-teal-400 list-disc pl-5 space-y-3 text-sm">
           <li>
             <a
               href={`/collections/${NameOfFatherFolder}`}

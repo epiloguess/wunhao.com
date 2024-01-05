@@ -1,16 +1,20 @@
 ---
-import Layout from "../layouts/PostLayout.astro";
+import Layout from "../layouts/BaseLayout.astro";
 
 import { getEntry } from "astro:content";
 
 const page = await getEntry("blog", "about");
 
 const { Content } = await page.render();
+
+import Prose from "../components/Prose.astro";
 ---
 
-<Layout post={page}>
+<Layout title="About Me">
   <section>
+    <Prose>
     <Content />
+    </Prose>
   </section>
   <!-- <section slot="sidebar-content" class="flex flex-col gap-8">
     <MeCard />

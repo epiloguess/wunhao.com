@@ -105,7 +105,7 @@ sudo pacman -S yay
 
 #### 配置 kde
 
-##### 文件管理器
+文件管理器
 
 ```
 sudo pacman -S [dolphin]
@@ -121,13 +121,13 @@ sudo pacman -S wget openssh
 
 [参考](<https://wiki.archlinux.org/title/Visual_Studio_Code_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)>)
 
-微软官方版本
+- 微软官方版本
 
 ```bash
 yay -S visual-studio-code-bin
 ```
 
-开源版本（不可登录账号）
+- 开源版本（不可登录账号）
 
 ```bash
 sudo pacman -S code

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/Object.is()和 = = =.md",
+                "file": "面试/Astro 建站小记.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "##",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/Object.is()和 = = =.md",
+                "file": "面试/Astro 建站小记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/Object.is()和 = = =.md",
+                "file": "面试/Astro 建站小记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/Object.is()和 = = =.md"
+                "file": "面试/Astro 建站小记.md"
               }
             }
           }
@@ -165,10 +165,14 @@
   },
   "active": "e9ea2aabd66f13e5",
   "lastOpenFiles": [
+    "面试/call和apply.md",
+    "面试/执行上下文.md",
+    "面试/Arch Linux Setup.md",
+    "面试/浅拷贝与深拷贝.md",
+    "面试/Object.is()和 = = =.md",
     "todo/单点登录.md",
     "面试/href 和 src 的区别.md",
     "面试/https.md",
-    "面试/Arch Linux Setup.md",
     "todo/Linux.md",
     "todo/TypeScript 笔记.md",
     "react/React 笔记.md",
@@ -189,10 +193,6 @@
     "面试/可迭代对象和类数组对象.md",
     "面试/严格模式.md",
     "面试/link标签.md",
-    "面试/垃圾回收.md",
-    "面试/强缓存和协商缓存.md",
-    "面试/九九乘法表.md",
-    "面试/作用域和作用域链.md",
     "assets/1698379386893.png",
     "assets",
     "template",

@@ -2,15 +2,21 @@
 import { getCollection, getEntryBySlug } from "astro:content";
 
 const page = await getEntryBySlug("blog", "resume");
-import Layout from "../layouts/SideBarLayout.astro";
+import Layout from "../layouts/BaseLayout.astro";
 import MeCard from "../components/MeCard.astro";
 
 const { Content } = await page.render();
+import Prose from "../components/Prose.astro";
+
 ---
 
 <Layout title="Resume">
-  <section slot="article-content" class="prose-base prose-headings:italic">
+  <section>
+    <Prose>
+
     <Content />
+
+    </Prose>
   </section>
   <!-- <section slot="sidebar-content" class="flex flex-col gap-8">
     <MeCard />

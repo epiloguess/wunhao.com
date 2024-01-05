@@ -16,7 +16,7 @@ draft: false
 
 ### What I'm doing now
 
-- 找一份前端开发的工作
+- 学习 NodeJs
 
 ### Favorites
 

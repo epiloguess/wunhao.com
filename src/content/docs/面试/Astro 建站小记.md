@@ -8,7 +8,7 @@ tags:
   - SSG
   - Astro
   - 前端框架
-featured: false
+featured: true
 draft: false
 ---
 
