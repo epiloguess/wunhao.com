@@ -1,6 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 import Card from "../Card.astro";
+
+import Tag from "../Tag.astro";
 const allPosts = await getCollection(
   "docs",
   (post) => post.data.draft == false
@@ -15,12 +17,7 @@ const alltags = [...new Set(posts.map((post) => post.data.tags).flat())];
   <div class="flex flex-wrap gap-2">
     {
       alltags.map((tag) => (
-        <a
-          class="  bg-gray-300 px-2 py-1 rounded-md text-sm border hover:border-green-500 "
-          href={`/tags/${tag}`}
-        >
-          {tag}
-        </a>
+<Tag tag={tag}></Tag>
       ))
     }
   </div>

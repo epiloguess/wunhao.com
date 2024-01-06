@@ -63,16 +63,22 @@ sudo apt autopurge evolution-data-server
 
 Firefox 从 121 版本开始支持 wayland,自带的 Firefox-ESR 暂不支持
 
-#### Chromium-Based
+#### Fcitx5
 
-`Chromium-Based` 相关软件在运行时传递以下命令行参数可以指定 wayland,对版本号有要求，且 Fcitx5 暂不可用
+Fcitx5 暂不可用
 
 [Fcitx5 - ArchWiki](https://wiki.archlinux.org/title/Fcitx5#Fcitx5_not_available_in_Chromium_running_on_Wayland)
+
+#### Chromium-Based
+
+`Chromium-Based` 相关软件在运行时传递以下命令行参数可以指定 wayland,对版本号有要求
+
+```bash
+--enable-features=UseOzonePlatform --ozone-platform=wayland
+```
+
+- VsCode
 
 VsCode 正式版暂`截止2023-12-23`无法开启 Wayland,需要 Insiders 版本
 
 [Download Visual Studio Code Insiders](https://code.visualstudio.com/insiders/)
-
-```bash
-code --enable-features=UseOzonePlatform --ozone-platform=wayland
-```

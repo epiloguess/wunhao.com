@@ -5,7 +5,7 @@ tags:
   - TypeScirpt
   - 笔记
 featured: false
-draft: false
+draft: true
 ---
 
 ### void, undefined, null

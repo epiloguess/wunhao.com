@@ -12,7 +12,7 @@ draft: true
 
 你好，我是文浩！
 
-欢迎来到我的博客，
+欢迎来到我的博客
 
 ### What I'm doing now
 
@@ -37,7 +37,7 @@ draft: true
 - **PC**: Barebones Of TongFang GS5
 
   - CPU: [Intel i5 12450H](https://ark.intel.com/content/www/cn/zh/ark/products/132222/intel-core-i512450h-processor-12m-cache-up-to-4-40-ghz.html)
-  - Memory: [SK Hynix 16GB]()
+  - Memory: SK Hynix 16GB
   - Storage: [Toshiba RC500 500GB ](https://www.guru3d.com/articles-pages/toshiba-rc500-500gb-nvme-m-2-ssd-review,1.html)
   - GPU: [RTX 3060](https://www.nvidia.com/en-us/geforce/graphics-cards/30-series/rtx-3060-3060ti/)
 

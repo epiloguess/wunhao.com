@@ -10,13 +10,15 @@
           {
             "id": "e9ea2aabd66f13e5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md",
+                "file": "blog/about.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -92,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f3ed40bea7cdc821",
@@ -108,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md",
+                "file": "blog/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md",
+                "file": "blog/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md"
+                "file": "blog/about.md"
               }
             }
           }
@@ -146,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 259.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,11 +168,15 @@
   },
   "active": "e9ea2aabd66f13e5",
   "lastOpenFiles": [
-    "template/template.md",
     "blog/aboutme.md",
+    "todo/Debian Setup.md",
+    "面试/arr.reduce.md",
+    "面试/简单请求.md",
+    "todo/TypeScript 笔记.md",
+    "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md",
+    "template/template.md",
     "blog/about.md",
     "面试/Astro 建站小记.md",
-    "todo/Debian Setup.md",
     "blog/resume.md",
     "blog",
     "面试/call和apply.md",
@@ -180,7 +188,6 @@
     "面试/href 和 src 的区别.md",
     "面试/https.md",
     "todo/Linux.md",
-    "todo/TypeScript 笔记.md",
     "react/React 笔记.md",
     "面试/Git 开发流程和技巧.md",
     "assets/1704419306166.png",
@@ -190,9 +197,6 @@
     "todo/Nodejs 参考资料.md",
     "面试/Golang学习路线.md",
     "面试/异步函数.md",
-    "面试/闭包.md",
-    "todo/Object.assign.md",
-    "面试/Polyfill 和转译器.md",
     "assets/1698379386893.png",
     "assets",
     "template",
