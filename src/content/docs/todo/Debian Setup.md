@@ -39,7 +39,7 @@ gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffe
 
 #### 禁用/删除相关服务
 
-- Gnome-software
+##### Gnome-software
 
 ```bash
 sudo nano /etc/xdg/autostart/org.gnome.Software.desktop
@@ -49,7 +49,7 @@ sudo nano /etc/xdg/autostart/org.gnome.Software.desktop
 
 参考 [XDG Autostart - ArchWiki](https://wiki.archlinux.org/title/XDG_Autostart)
 
-- Evolution
+##### Evolution
 
 ```bash
 sudo apt autopurge evolution-data-server

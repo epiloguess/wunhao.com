@@ -1,0 +1,14 @@
+---
+
+const { class:className,href} = Astro.props
+---
+
+
+<a
+class=`hover:text-teal-500 hover:underline underline-offset-4 decoration-teal-500 decoration-wavy ${className}` 
+
+href={href}>
+
+<slot></slot>
+</a
+>

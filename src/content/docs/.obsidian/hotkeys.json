@@ -136,9 +136,9 @@
   "workspace:toggle-pin": [
     {
       "modifiers": [
-        "Mod"
+        "Alt"
       ],
-      "key": "S"
+      "key": "W"
     }
   ]
 }

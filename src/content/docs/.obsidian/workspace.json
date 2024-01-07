@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5b0246f3da21f6aa",
+        "id": "fc63b8a7e3f2c70a",
         "type": "tabs",
         "children": [
           {
-            "id": "e9ea2aabd66f13e5",
+            "id": "909c9680d0e138c4",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/about.md",
+                "file": "todo/Debian Setup.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ]
@@ -111,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/about.md",
+                "file": "todo/Debian Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog/about.md",
+                "file": "todo/Debian Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/about.md"
+                "file": "todo/Debian Setup.md"
               }
             }
           }
@@ -166,23 +164,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e9ea2aabd66f13e5",
+  "active": "909c9680d0e138c4",
   "lastOpenFiles": [
-    "blog/aboutme.md",
+    "todo/ESL.md",
+    "面试/浅拷贝与深拷贝.md",
     "todo/Debian Setup.md",
+    "todo/身体健康.md",
+    "todo/未命名.md",
+    "blog/aboutme.md",
+    "blog/about.md",
     "面试/arr.reduce.md",
     "面试/简单请求.md",
     "todo/TypeScript 笔记.md",
     "面试/蓝天nh55（NH5xAx）使用感受（降温、降压降频）.md",
     "template/template.md",
-    "blog/about.md",
     "面试/Astro 建站小记.md",
     "blog/resume.md",
     "blog",
     "面试/call和apply.md",
     "面试/执行上下文.md",
     "面试/Arch Linux Setup.md",
-    "面试/浅拷贝与深拷贝.md",
     "面试/Object.is()和 = = =.md",
     "todo/单点登录.md",
     "面试/href 和 src 的区别.md",
@@ -194,9 +195,6 @@
     "assets/Pasted image 20240105094719.png",
     "面试/路由守卫.md",
     "面试/v-show 和 v-if.md",
-    "todo/Nodejs 参考资料.md",
-    "面试/Golang学习路线.md",
-    "面试/异步函数.md",
     "assets/1698379386893.png",
     "assets",
     "template",

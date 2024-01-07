@@ -1,9 +1,8 @@
 ---
-import { getCollection, getEntryBySlug } from "astro:content";
+import {  getEntry } from "astro:content";
 
-const page = await getEntryBySlug("blog", "resume");
+const page = await getEntry("docs", "blog/resume");
 import Layout from "../layouts/BaseLayout.astro";
-import MeCard from "../components/MeCard.astro";
 
 const { Content } = await page.render();
 import Prose from "../components/Prose.astro";
@@ -18,7 +17,5 @@ import Prose from "../components/Prose.astro";
 
     </Prose>
   </section>
-  <!-- <section slot="sidebar-content" class="flex flex-col gap-8">
-    <MeCard />
-  </section> -->
+
 </Layout>
